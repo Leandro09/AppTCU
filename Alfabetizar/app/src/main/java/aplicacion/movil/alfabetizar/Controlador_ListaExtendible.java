@@ -50,7 +50,7 @@ public class Controlador_ListaExtendible extends BaseExpandableListAdapter {
         if (convertView == null) {
             LayoutInflater infalInflater = (LayoutInflater) this._context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = infalInflater.inflate(R.layout.contenedor_Simbolos, null);
+            convertView = infalInflater.inflate(R.layout.contenedor_simbolos, null);
         }
 
         TextView txtListChild = (TextView) convertView
@@ -88,7 +88,7 @@ public class Controlador_ListaExtendible extends BaseExpandableListAdapter {
         if (convertView == null) {
             LayoutInflater infalInflater = (LayoutInflater) this._context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = infalInflater.inflate(R.layout.contenedor_Grupos, null);
+            convertView = infalInflater.inflate(R.layout.contenedor_grupos, null);
         }
 
         TextView lblListHeader = (TextView) convertView

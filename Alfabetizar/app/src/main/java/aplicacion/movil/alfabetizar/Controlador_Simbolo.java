@@ -20,7 +20,7 @@ public class Controlador_Simbolo extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.contenedor_Simbolo);
+        setContentView(R.layout.contenedor_simbolo);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         sound = new Controlador_Sonidos(getApplicationContext());
