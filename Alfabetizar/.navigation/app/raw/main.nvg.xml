@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "aplicacion.movil.alfabetizar.Controlador_Lista"/>
+      <point      
+        x = "2272"      
+        y = "-16"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "aplicacion.movil.alfabetizar.Controlador_Principal"/>
+      <point      
+        x = "260"      
+        y = "8"/>
+    </statePointEntry>
+
+  </locations>
+</navigationModel>
