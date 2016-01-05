@@ -4,6 +4,8 @@
     android:layout_height="match_parent"
     android:background="#8d93e1">
 
+
+
     <TextView
         android:id="@+id/listaLetras"
         android:layout_width="fill_parent"
