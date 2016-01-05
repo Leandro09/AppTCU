@@ -1,5 +1,6 @@
 package aplicacion.movil.alfabetizar;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
@@ -27,6 +28,7 @@ public class Controlador_Lista extends AppCompatActivity {
     HashMap<String, List<String>> listDataChild;
     int prueba;
     Controlador_Sonidos sound;
+    Controlador_Simbolo nuevaPantalla;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +64,9 @@ public class Controlador_Lista extends AppCompatActivity {
                                 childPosition), Toast.LENGTH_SHORT)
                         .show();
                 v.getBackground().setColorFilter(Color.parseColor("#00ff00"), PorterDuff.Mode.DARKEN);
+                nuevaPantalla = new Controlador_Simbolo();
+                Controlador_Lista.this.finish();
+
                 return false;
             }
         });
