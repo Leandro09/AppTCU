@@ -20,6 +20,9 @@
         <activity android:name=".Controlador_Lista">
         </activity>
 
+        <activity android:name=".Controlador_Simbolo">
+        </activity>
+
     </application>
 
 </manifest>

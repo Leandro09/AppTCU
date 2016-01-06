@@ -63,9 +63,12 @@ public class Controlador_Lista extends AppCompatActivity {
                                 listDataHeader.get(groupPosition)).get(
                                 childPosition), Toast.LENGTH_SHORT)
                         .show();
-                v.getBackground().setColorFilter(Color.parseColor("#00ff00"), PorterDuff.Mode.DARKEN);
-                nuevaPantalla = new Controlador_Simbolo();
-                Controlador_Lista.this.finish();
+            //    v.getBackground().setColorFilter(Color.parseColor("#00ff00"), PorterDuff.Mode.DARKEN);
+                v.setSelected(true);
+                startActivity(new Intent(Controlador_Lista.this, Controlador_Simbolo.class));
+
+            //    nuevaPantalla = new Controlador_Simbolo();
+            //    Controlador_Lista.this.finish();
 
                 return false;
             }
