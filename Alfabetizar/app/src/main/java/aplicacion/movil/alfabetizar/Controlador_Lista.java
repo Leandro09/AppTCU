@@ -65,7 +65,9 @@ public class Controlador_Lista extends AppCompatActivity {
                         .show();
             //    v.getBackground().setColorFilter(Color.parseColor("#00ff00"), PorterDuff.Mode.DARKEN);
                 v.setSelected(true);
-                startActivity(new Intent(Controlador_Lista.this, Controlador_Simbolo.class));
+                Intent intent = new Intent(Controlador_Lista.this, Controlador_Simbolo.class);
+                intent.putExtra("Letra",listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition));
+                startActivity(intent);
 
             //    nuevaPantalla = new Controlador_Simbolo();
             //    Controlador_Lista.this.finish();

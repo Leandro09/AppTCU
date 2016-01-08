@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.TextView;
 
 /**
  * Created by Leandro on 29/12/2015.
@@ -15,7 +16,6 @@ public class Controlador_Simbolo extends AppCompatActivity {
 
 
     Controlador_Sonidos sound;
-
     int prueba;
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +23,22 @@ public class Controlador_Simbolo extends AppCompatActivity {
         setContentView(R.layout.contenedor_simbolo);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        //getIntent().getExtras().getChar("Letra");
+        String palabra = getIntent().getStringExtra("Letra");
+        System.out.println("saf"+palabra);
+        colocarPalabra(palabra);
         sound = new Controlador_Sonidos(getApplicationContext());
         this.setVolumeControlStream(AudioManager.STREAM_MUSIC);
         prueba = sound.load(R.raw.prueba);
     }
+
+    public void colocarPalabra(String s){
+
+        TextView t1=(TextView)findViewById(R.id.textPrimera);
+        t1.setText(s);
+
+    }
+
 
     public void reproducirSonido(View view){
         int id = view.getId();
