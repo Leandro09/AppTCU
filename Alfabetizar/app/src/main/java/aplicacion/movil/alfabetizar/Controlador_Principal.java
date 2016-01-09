@@ -7,11 +7,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 
+import java.util.ArrayList;
+
 /*
 * Clase para iniciar aplicación
  */
 
 public class Controlador_Principal extends AppCompatActivity {
+
+
+    public static ArrayList<ArrayList<String>> listaPalabras;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +24,7 @@ public class Controlador_Principal extends AppCompatActivity {
         setContentView(R.layout.contenedor_inicial);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-
+        llenarArreglo();
         findViewById(R.id.btnIniciar).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,4 +32,28 @@ public class Controlador_Principal extends AppCompatActivity {
             }
         });
     }
+
+    public void llenarArreglo(){
+        ArrayList<String> palabras = new ArrayList<String>();
+        palabras.add("anillo");
+        palabras.add("abeja");
+        palabras.add("alambre");
+        listaPalabras.add(palabras);
+
+        palabras.clear();
+        palabras.add("barco");
+        palabras.add("beso");
+        palabras.add("botella");
+        listaPalabras.add(palabras);
+
+        palabras.clear();
+        palabras.add("caballo");
+        palabras.add("casa");
+        palabras.add("cocina");
+        listaPalabras.add(palabras);
+
+
+    }
+
+
 }
