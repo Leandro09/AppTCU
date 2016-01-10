@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 import java.util.Locale;
 import android.text.style.UnderlineSpan;
 import android.text.SpannableString;
@@ -54,9 +56,11 @@ public class Controlador_Simbolo extends AppCompatActivity {
     {
         String letraSubrayar;
         SpannableString palabraSubrayada;
-        palabraSubrayada  = new SpannableString("arana"); //Esto ahorita esta como default, pero
-        //aqui debe ir una manera de leer de la lista una vez que sabe la posicion o algo que
-        //identifique a partir de adonde en la lista debe leer
+        int indice = 0;
+        ArrayList<String> lista = Controlador_Principal.listaPalabras.get(posicion);
+
+
+        palabraSubrayada  = new SpannableString(lista.get(0));
 
         if (letra.length() > 0 && !letra.trim().equals(""))
         {
@@ -74,14 +78,14 @@ public class Controlador_Simbolo extends AppCompatActivity {
                 {
                     TextView t1 = (TextView) findViewById(R.id.textPrimera);
                     t1.setText(palabraSubrayada);
-                    palabraSubrayada  = new SpannableString("amanecer"); //se debe reemplazar este default por
+                    palabraSubrayada  = new SpannableString(lista.get(1)); //se debe reemplazar este default por
                             // la forma que permita leer de la lista la palabra
                 }
                 else if (contadorPosicion == 2)
                 {
                     TextView t1 = (TextView) findViewById(R.id.textSegunda);
                     t1.setText(palabraSubrayada);
-                    palabraSubrayada  = new SpannableString("atardecer"); //se debe reemplazar este default por
+                    palabraSubrayada  = new SpannableString(lista.get(2)); //se debe reemplazar este default por
                     // la forma que permita leer de la lista la palabra
                 }
                 else
