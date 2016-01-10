@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 import android.text.style.UnderlineSpan;
 import android.text.SpannableString;
+import android.widget.Toast;
 
 
 /**
@@ -40,15 +41,114 @@ public class Controlador_Simbolo extends AppCompatActivity {
 
     public void leerLetra(String letra)
     {
-        String letraSubrayar = letra.toLowerCase(Locale.US);
 
-        switch (letraSubrayar)
+        String letraSubrayar = letra.toLowerCase(Locale.US);
+        char letraLeida = letraSubrayar.charAt(0);
+        int asciiLetra =  (int)letraLeida;
+        int posicion = asciiLetra - 'a';
+        int cantidadPalabras = 3;
+      //  Toast.makeText(getApplicationContext(), "posicion: " + posicion, Toast.LENGTH_SHORT).show();
+        ArrayList<String> lista = Controlador_Principal.listaPalabras.get(1);
+        String pala = Controlador_Principal.listaPalabras.get(1).get(0);
+        SpannableString palabrita = new SpannableString(lista.get(0));
+       /* Toast.makeText(getApplicationContext(), "palabra 1: " + palabrita, Toast.LENGTH_SHORT).show();
+        palabrita = new SpannableString(lista.get(1));
+        Toast.makeText(getApplicationContext(), "palabra 2: " + palabrita, Toast.LENGTH_SHORT).show();
+        palabrita = new SpannableString(lista.get(2));
+        Toast.makeText(getApplicationContext(), "palabra 3: " + palabrita, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "palabrix: " + pala, Toast.LENGTH_SHORT).show(); */
+        colocarPalabras(letraSubrayar, posicion);
+
+
+    /*    switch (letraSubrayar)
         {
             case "a":
+                letraLeida = letraSubrayar.charAt(0);
+                asciiLetra = (int)letraLeida;
                 colocarPalabras(letraSubrayar, 0); //Digamos que el 0 representa algo que me permite saber
                 // a partir de adonde debo leer en la lista las palabras correspondientes a "a"
                 break;
-        }
+
+            case "b":
+                letraLeida = letraSubrayar.charAt(0);
+                asciiLetra = (int)letraLeida;
+                posicion = asciiLetra - 'a';
+                colocarPalabras(letraSubrayar, posicion);
+                break;
+
+            case "c":
+                letraLeida = letraSubrayar.charAt(0);
+                asciiLetra = (int)letraLeida;
+                posicion = asciiLetra - 'a';
+                colocarPalabras(letraSubrayar, posicion);
+                break;
+
+            case "d":
+                letraLeida = letraSubrayar.charAt(0);
+                asciiLetra = (int)letraLeida;
+                posicion = asciiLetra - 'a';
+                colocarPalabras(letraSubrayar, posicion);
+                break;
+
+            case "e":
+                letraLeida = letraSubrayar.charAt(0);
+                asciiLetra = (int)letraLeida;
+                posicion = asciiLetra - 'a';
+                colocarPalabras(letraSubrayar, posicion);
+                break;
+
+            case "f":
+                letraLeida = letraSubrayar.charAt(0);
+                asciiLetra = (int)letraLeida;
+                posicion = asciiLetra - 'a';
+                colocarPalabras(letraSubrayar, posicion);
+                break;
+
+            case "g":
+                letraLeida = letraSubrayar.charAt(0);
+                asciiLetra = (int)letraLeida;
+                posicion = asciiLetra - 'a';
+                colocarPalabras(letraSubrayar, posicion);
+                break;
+
+            case "h":
+                letraLeida = letraSubrayar.charAt(0);
+                asciiLetra = (int)letraLeida;
+                posicion = asciiLetra - 'a';
+                colocarPalabras(letraSubrayar, posicion);
+                break;
+
+            case "i":
+                letraLeida = letraSubrayar.charAt(0);
+                asciiLetra = (int)letraLeida;
+                posicion = asciiLetra - 'a';
+                colocarPalabras(letraSubrayar, posicion);
+                break;
+
+            case "j":
+                letraLeida = letraSubrayar.charAt(0);
+                asciiLetra = (int)letraLeida;
+                posicion = asciiLetra - 'a';
+                colocarPalabras(letraSubrayar, posicion);
+                break;
+
+            case "k":
+                letraLeida = letraSubrayar.charAt(0);
+                asciiLetra = (int)letraLeida;
+                posicion = asciiLetra - 'a';
+                colocarPalabras(letraSubrayar, posicion);
+                break;
+
+            case "l":
+                letraLeida = letraSubrayar.charAt(0);
+                asciiLetra = (int)letraLeida;
+                posicion = asciiLetra - 'a';
+                colocarPalabras(letraSubrayar, posicion);
+                break; */
+
+
+
+    //    }
     }
 
     //Por el momento el parametro posicion no sirve de nada ! Tendrá sentido cuando se cree la lista
@@ -57,8 +157,8 @@ public class Controlador_Simbolo extends AppCompatActivity {
         String letraSubrayar;
         SpannableString palabraSubrayada;
         int indice = 0;
+        String letraTildada = " ";
         ArrayList<String> lista = Controlador_Principal.listaPalabras.get(posicion);
-
 
         palabraSubrayada  = new SpannableString(lista.get(0));
 
@@ -70,7 +170,35 @@ public class Controlador_Simbolo extends AppCompatActivity {
             {
                 for (int i = 0; i < palabraSubrayada.length(); ++i)
                 {
-                    if (palabraSubrayada.charAt(i) == letraSubrayar.charAt(0)) {
+
+                    switch(letra)
+                    {
+                        case "a":
+                            letraTildada = "á";
+                            break;
+
+                        case "e":
+                            letraTildada = "é";
+                            break;
+
+                        case "i":
+                            letraTildada = "í";
+                            break;
+
+                        case "o":
+                            letraTildada = "ó";
+                            break;
+
+                        case "u":
+                            letraTildada = "ú";
+                            break;
+
+                        default:
+                            letraTildada = " ";
+                    }
+
+                    if ( (palabraSubrayada.charAt(i) == letraSubrayar.charAt(0)) || (palabraSubrayada.charAt(i) == letraTildada.charAt(0))  ) {
+
                         palabraSubrayada.setSpan(new UnderlineSpan(), i, i + 1, 0);
                     }
                 }
