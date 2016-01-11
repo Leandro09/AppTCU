@@ -2,14 +2,13 @@ package aplicacion.movil.alfabetizar;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.graphics.Color;
-import android.graphics.PorterDuff;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ExpandableListView;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -63,19 +62,22 @@ public class Controlador_Lista extends AppCompatActivity {
                                 listDataHeader.get(groupPosition)).get(
                                 childPosition), Toast.LENGTH_SHORT)
                         .show();
-            //    v.getBackground().setColorFilter(Color.parseColor("#00ff00"), PorterDuff.Mode.DARKEN);
+                //    v.getBackground().setColorFilter(Color.parseColor("#00ff00"), PorterDuff.Mode.DARKEN);
                 v.setSelected(true);
                 Intent intent = new Intent(Controlador_Lista.this, Controlador_Simbolo.class);
-                intent.putExtra("Letra",listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition));
+                intent.putExtra("Letra", listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition));
                 startActivity(intent);
 
-            //    nuevaPantalla = new Controlador_Simbolo();
-            //    Controlador_Lista.this.finish();
+                //    nuevaPantalla = new Controlador_Simbolo();
+                //    Controlador_Lista.this.finish();
 
                 return false;
             }
         });
 
+        //Boton(flecha) de retorno
+        ActionBar ab = getSupportActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
 
     }
 
@@ -141,7 +143,19 @@ public class Controlador_Lista extends AppCompatActivity {
     }
 
 
-
+    //Le da funcionalidad a la flecha de retorno
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch (item.getItemId())
+        {
+            case android.R.id.home:
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
 
 }

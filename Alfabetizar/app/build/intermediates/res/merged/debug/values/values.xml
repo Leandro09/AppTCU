@@ -30,9 +30,9 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#00897B</color>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#212121</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -178,10 +178,12 @@
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <drawable name="blue_color">#1703F4</drawable>
+    <drawable name="blue_color">#039BE5</drawable>
+    <drawable name="darkgray_color">#212121</drawable>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
-    <drawable name="red_color">#F40303</drawable>
-    <drawable name="yellow_color">#FFCC33</drawable>
+    <drawable name="red_color">#E53935</drawable>
+    <drawable name="teal_color">#00897B</drawable>
+    <drawable name="yellow_color">#FDD835</drawable>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
