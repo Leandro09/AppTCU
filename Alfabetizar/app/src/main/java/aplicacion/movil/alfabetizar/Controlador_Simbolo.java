@@ -3,16 +3,17 @@ package aplicacion.movil.alfabetizar;
 import android.content.pm.ActivityInfo;
 import android.media.AudioManager;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.text.SpannableString;
+import android.text.style.UnderlineSpan;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Locale;
-import android.text.style.UnderlineSpan;
-import android.text.SpannableString;
-import android.widget.Toast;
 
 
 /**
@@ -37,6 +38,10 @@ public class Controlador_Simbolo extends AppCompatActivity {
         sound = new Controlador_Sonidos(getApplicationContext());
         this.setVolumeControlStream(AudioManager.STREAM_MUSIC);
         prueba = sound.load(R.raw.prueba);
+
+        //Boton(flecha) de retorno
+        ActionBar ab = getSupportActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
     }
 
     public void leerLetra(String letra)
@@ -235,6 +240,21 @@ public class Controlador_Simbolo extends AppCompatActivity {
                 sound.play(prueba);
                 break;
 
+        }
+    }
+
+
+    //Le da funcionalidad a la flecha de retorno
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch (item.getItemId())
+        {
+            case android.R.id.home:
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 

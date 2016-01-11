@@ -2,8 +2,10 @@ package aplicacion.movil.alfabetizar;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 
@@ -31,6 +33,10 @@ public class Controlador_Principal extends AppCompatActivity {
                 startActivity(new Intent(Controlador_Principal.this, Controlador_Lista.class));
             }
         });
+
+        //Boton(flecha) de retorno
+        ActionBar ab = getSupportActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
     }
 
     public void llenarArreglo(){
@@ -225,6 +231,20 @@ public class Controlador_Principal extends AppCompatActivity {
         listaPalabras.add(palabras);
 
 
+    }
+
+    //Le da funcionalidad a la flecha de retorno
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch (item.getItemId())
+        {
+            case android.R.id.home:
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
 
