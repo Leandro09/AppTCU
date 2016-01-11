@@ -8,12 +8,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text=""
         android:id="@+id/textPrimera"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="86dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignRight="@+id/btnSonido"
+        android:layout_alignEnd="@+id/btnSonido"
+        android:layout_alignLeft="@+id/btnSonido"
+        android:layout_alignStart="@+id/btnSonido" />
 
     <Button
         android:layout_width="wrap_content"
@@ -22,27 +22,28 @@
         android:id="@+id/btnSonido"
         android:onClick="reproducirSonido"
         android:layout_gravity="center_horizontal"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/textPrimera"
         android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text=""
         android:id="@+id/textSegunda"
-        android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_below="@+id/btnSonido"
+        android:layout_toRightOf="@+id/textPrimera"
+        android:layout_toEndOf="@+id/textPrimera"
+        android:layout_marginTop="52dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text=""
         android:id="@+id/textTercera"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignTop="@+id/textSegunda"
+        android:layout_toLeftOf="@+id/btnSonido"
+        android:layout_toStartOf="@+id/btnSonido"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
