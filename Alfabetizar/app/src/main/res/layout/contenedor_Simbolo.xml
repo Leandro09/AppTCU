@@ -8,11 +8,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/textPrimera"
-        android:layout_gravity="center_horizontal"
-        android:layout_alignRight="@+id/btnSonido"
-        android:layout_alignEnd="@+id/btnSonido"
-        android:layout_alignLeft="@+id/btnSonido"
-        android:layout_alignStart="@+id/btnSonido" />
+        android:text="@string/Prueba1"
+        android:layout_gravity="center_horizontal" />
 
     <Button
         android:layout_width="wrap_content"
@@ -30,9 +27,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/textSegunda"
+        android:text="@string/Prueba2"
         android:layout_below="@+id/btnSonido"
-        android:layout_toRightOf="@+id/textPrimera"
-        android:layout_toEndOf="@+id/textPrimera"
         android:layout_marginTop="52dp" />
 
     <TextView
@@ -40,9 +36,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/textTercera"
-        android:layout_alignTop="@+id/textSegunda"
-        android:layout_toLeftOf="@+id/btnSonido"
-        android:layout_toStartOf="@+id/btnSonido"
+        android:text="@string/Prueba3"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

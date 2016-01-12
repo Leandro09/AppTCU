@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -51,129 +52,41 @@ public class Controlador_Simbolo extends AppCompatActivity {
         char letraLeida = letraSubrayar.charAt(0);
         int asciiLetra =  (int)letraLeida;
         int posicion = asciiLetra - 'a';
-        int cantidadPalabras = 3;
-      //  Toast.makeText(getApplicationContext(), "posicion: " + posicion, Toast.LENGTH_SHORT).show();
-        ArrayList<String> lista = Controlador_Principal.listaPalabras.get(1);
-        String pala = Controlador_Principal.listaPalabras.get(1).get(0);
-        SpannableString palabrita = new SpannableString(lista.get(0));
-       /* Toast.makeText(getApplicationContext(), "palabra 1: " + palabrita, Toast.LENGTH_SHORT).show();
-        palabrita = new SpannableString(lista.get(1));
-        Toast.makeText(getApplicationContext(), "palabra 2: " + palabrita, Toast.LENGTH_SHORT).show();
-        palabrita = new SpannableString(lista.get(2));
-        Toast.makeText(getApplicationContext(), "palabra 3: " + palabrita, Toast.LENGTH_SHORT).show();
-        Toast.makeText(getApplicationContext(), "palabrix: " + pala, Toast.LENGTH_SHORT).show(); */
         colocarPalabras(letraSubrayar, posicion);
-
-
-    /*    switch (letraSubrayar)
-        {
-            case "a":
-                letraLeida = letraSubrayar.charAt(0);
-                asciiLetra = (int)letraLeida;
-                colocarPalabras(letraSubrayar, 0); //Digamos que el 0 representa algo que me permite saber
-                // a partir de adonde debo leer en la lista las palabras correspondientes a "a"
-                break;
-
-            case "b":
-                letraLeida = letraSubrayar.charAt(0);
-                asciiLetra = (int)letraLeida;
-                posicion = asciiLetra - 'a';
-                colocarPalabras(letraSubrayar, posicion);
-                break;
-
-            case "c":
-                letraLeida = letraSubrayar.charAt(0);
-                asciiLetra = (int)letraLeida;
-                posicion = asciiLetra - 'a';
-                colocarPalabras(letraSubrayar, posicion);
-                break;
-
-            case "d":
-                letraLeida = letraSubrayar.charAt(0);
-                asciiLetra = (int)letraLeida;
-                posicion = asciiLetra - 'a';
-                colocarPalabras(letraSubrayar, posicion);
-                break;
-
-            case "e":
-                letraLeida = letraSubrayar.charAt(0);
-                asciiLetra = (int)letraLeida;
-                posicion = asciiLetra - 'a';
-                colocarPalabras(letraSubrayar, posicion);
-                break;
-
-            case "f":
-                letraLeida = letraSubrayar.charAt(0);
-                asciiLetra = (int)letraLeida;
-                posicion = asciiLetra - 'a';
-                colocarPalabras(letraSubrayar, posicion);
-                break;
-
-            case "g":
-                letraLeida = letraSubrayar.charAt(0);
-                asciiLetra = (int)letraLeida;
-                posicion = asciiLetra - 'a';
-                colocarPalabras(letraSubrayar, posicion);
-                break;
-
-            case "h":
-                letraLeida = letraSubrayar.charAt(0);
-                asciiLetra = (int)letraLeida;
-                posicion = asciiLetra - 'a';
-                colocarPalabras(letraSubrayar, posicion);
-                break;
-
-            case "i":
-                letraLeida = letraSubrayar.charAt(0);
-                asciiLetra = (int)letraLeida;
-                posicion = asciiLetra - 'a';
-                colocarPalabras(letraSubrayar, posicion);
-                break;
-
-            case "j":
-                letraLeida = letraSubrayar.charAt(0);
-                asciiLetra = (int)letraLeida;
-                posicion = asciiLetra - 'a';
-                colocarPalabras(letraSubrayar, posicion);
-                break;
-
-            case "k":
-                letraLeida = letraSubrayar.charAt(0);
-                asciiLetra = (int)letraLeida;
-                posicion = asciiLetra - 'a';
-                colocarPalabras(letraSubrayar, posicion);
-                break;
-
-            case "l":
-                letraLeida = letraSubrayar.charAt(0);
-                asciiLetra = (int)letraLeida;
-                posicion = asciiLetra - 'a';
-                colocarPalabras(letraSubrayar, posicion);
-                break; */
-
-
-
-    //    }
     }
 
-    //Por el momento el parametro posicion no sirve de nada ! Tendrá sentido cuando se cree la lista
+
     public void colocarPalabras(String letra, int posicion)
     {
-        String letraSubrayar;
         SpannableString palabraSubrayada;
-        int indice = 0;
         String letraTildada = " ";
-        ArrayList<String> lista = Controlador_Principal.listaPalabras.get(posicion);
+        int contador = 0;
+        ArrayList<String> lista = new ArrayList<String>();
 
-        palabraSubrayada  = new SpannableString(lista.get(0));
+        if(letra.contentEquals("ñ"))
+        {
+            while(contador < Controlador_Principal.listaPalabrasEspeciales.size() && letra.charAt(0) != Controlador_Principal.listaPalabrasEspeciales.get(contador).get(0).charAt(0))
+            {
+                ++contador;
+            }
+
+            if(contador < Controlador_Principal.listaPalabrasEspeciales.size() )
+            {
+                lista = Controlador_Principal.listaPalabrasEspeciales.get(contador);
+            }
+       }
+        else
+        {
+            lista = Controlador_Principal.listaPalabras.get(posicion);
+        }
 
         if (letra.length() > 0 && !letra.trim().equals(""))
         {
-            letraSubrayar = letra.toLowerCase(Locale.US);
+                palabraSubrayada  = new SpannableString(lista.get(0).toLowerCase(Locale.US));
 
             for(int contadorPosicion = 1; contadorPosicion < 4; ++contadorPosicion)
             {
-                for (int i = 0; i < palabraSubrayada.length(); ++i)
+               for (int i = 0; i < palabraSubrayada.length(); ++i)
                 {
 
                     switch(letra)
@@ -202,24 +115,23 @@ public class Controlador_Simbolo extends AppCompatActivity {
                             letraTildada = " ";
                     }
 
-                    if ( (palabraSubrayada.charAt(i) == letraSubrayar.charAt(0)) || (palabraSubrayada.charAt(i) == letraTildada.charAt(0))  ) {
+                   if ( (palabraSubrayada.charAt(i)  == letra.charAt(0)) || (palabraSubrayada.charAt(i) == letraTildada.charAt(0))  ) {
 
                         palabraSubrayada.setSpan(new UnderlineSpan(), i, i + 1, 0);
                     }
+
                 }
-                if (contadorPosicion == 1)
+               if (contadorPosicion == 1)
                 {
                     TextView t1 = (TextView) findViewById(R.id.textPrimera);
                     t1.setText(palabraSubrayada);
-                    palabraSubrayada  = new SpannableString(lista.get(1)); //se debe reemplazar este default por
-                            // la forma que permita leer de la lista la palabra
+                    palabraSubrayada  = new SpannableString(lista.get(1).toLowerCase(Locale.US));
                 }
                 else if (contadorPosicion == 2)
                 {
                     TextView t1 = (TextView) findViewById(R.id.textSegunda);
                     t1.setText(palabraSubrayada);
-                    palabraSubrayada  = new SpannableString(lista.get(2)); //se debe reemplazar este default por
-                    // la forma que permita leer de la lista la palabra
+                    palabraSubrayada  = new SpannableString(lista.get(2).toLowerCase(Locale.US));
                 }
                 else
                 {

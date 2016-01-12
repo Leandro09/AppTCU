@@ -19,6 +19,7 @@ public class Controlador_Principal extends AppCompatActivity {
 
 
     public static ArrayList<ArrayList<String>> listaPalabras = new ArrayList<ArrayList<String>>();
+    public static ArrayList<ArrayList<String>> listaPalabrasEspeciales = new ArrayList<ArrayList<String>>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -138,12 +139,7 @@ public class Controlador_Principal extends AppCompatActivity {
         palabras.add("nublado");
         listaPalabras.add(palabras);
 
-        palabras =  new ArrayList<String>();
-     //   palabras.clear();
-        palabras.add("caballo");
-        palabras.add("casa");
-        palabras.add("cocina");
-        listaPalabras.add(palabras);
+
 
         palabras =  new ArrayList<String>();
         //   palabras.clear();
@@ -190,9 +186,9 @@ public class Controlador_Principal extends AppCompatActivity {
 
         palabras =  new ArrayList<String>();
     //    palabras.clear();
-        palabras.add("caballo");
-        palabras.add("casa");
-        palabras.add("cocina");
+        palabras.add("unicornio");
+        palabras.add("umbral");
+        palabras.add("uniforme");
         listaPalabras.add(palabras);
 
         palabras =  new ArrayList<String>();
@@ -230,7 +226,12 @@ public class Controlador_Principal extends AppCompatActivity {
         palabras.add("zanahoria");
         listaPalabras.add(palabras);
 
-
+        //Finalmente se llena la lista con los acentos propios del idioma español como lo es la letra ñ
+        palabras =  new ArrayList<String>();
+        palabras.add("ña");
+        palabras.add("ñañita");
+        palabras.add("ñeeee");
+        listaPalabrasEspeciales.add(palabras);
     }
 
     //Le da funcionalidad a la flecha de retorno

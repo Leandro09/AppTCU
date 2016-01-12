@@ -1763,6 +1763,9 @@ containing a value of this type.
         public static final int prueba=0x7f060000;
     }
     public static final class string {
+        public static final int Prueba1=0x7f070015;
+        public static final int Prueba2=0x7f070016;
+        public static final int Prueba3=0x7f070017;
         public static final int Sonido=0x7f070014;
         public static final int abc_action_bar_home_description=0x7f070000;
         public static final int abc_action_bar_home_description_format=0x7f070001;
@@ -1783,8 +1786,8 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f070010;
         public static final int abc_shareactionprovider_share_with_application=0x7f070011;
         public static final int abc_toolbar_collapse_description=0x7f070012;
-        public static final int app_name=0x7f070015;
-        public static final int btnSonido=0x7f070016;
+        public static final int app_name=0x7f070018;
+        public static final int btnSonido=0x7f070019;
         public static final int status_bar_notification_info_overflow=0x7f070013;
     }
     public static final class style {

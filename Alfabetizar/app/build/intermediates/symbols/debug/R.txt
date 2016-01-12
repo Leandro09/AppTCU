@@ -599,6 +599,9 @@ int layout select_dialog_singlechoice_material 0x7f040028
 int layout support_simple_spinner_dropdown_item 0x7f040029
 int mipmap ic_launcher 0x7f030000
 int raw prueba 0x7f060000
+int string Prueba1 0x7f070015
+int string Prueba2 0x7f070016
+int string Prueba3 0x7f070017
 int string Sonido 0x7f070014
 int string abc_action_bar_home_description 0x7f070000
 int string abc_action_bar_home_description_format 0x7f070001
@@ -619,8 +622,8 @@ int string abc_searchview_description_voice 0x7f07000f
 int string abc_shareactionprovider_share_with 0x7f070010
 int string abc_shareactionprovider_share_with_application 0x7f070011
 int string abc_toolbar_collapse_description 0x7f070012
-int string app_name 0x7f070015
-int string btnSonido 0x7f070016
+int string app_name 0x7f070018
+int string btnSonido 0x7f070019
 int string status_bar_notification_info_overflow 0x7f070013
 int style AlertDialog_AppCompat 0x7f0a007d
 int style AlertDialog_AppCompat_Light 0x7f0a007e
