@@ -31,7 +31,7 @@ public class Controlador_Principal extends AppCompatActivity {
         findViewById(R.id.btnIniciar).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Controlador_Principal.this, Controlador_Lista.class));
+                startActivity(new Intent(Controlador_Principal.this, Controlador_Tabs.class));
             }
         });
 

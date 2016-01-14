@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="15"
         android:targetSdkVersion="23" />
 
     <application
@@ -22,10 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="aplicacion.movil.alfabetizar.Controlador_Lista" >
-        </activity>
-        <activity android:name="aplicacion.movil.alfabetizar.Controlador_Simbolo" >
-        </activity>
+        <activity android:name="aplicacion.movil.alfabetizar.Controlador_Lista" />
+        <activity android:name="aplicacion.movil.alfabetizar.Controlador_Simbolo" />
+        <activity
+            android:name="aplicacion.movil.alfabetizar.Controlador_Tabs"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

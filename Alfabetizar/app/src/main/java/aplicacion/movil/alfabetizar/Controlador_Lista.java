@@ -82,7 +82,7 @@ public class Controlador_Lista extends AppCompatActivity {
     }
 
 
-
+/*
     public void reproducirSonido(View view){
         int id = view.getId();
 
@@ -94,6 +94,8 @@ public class Controlador_Lista extends AppCompatActivity {
 
         }
     }
+*/
+
 
     /*
      * Preparing the list data

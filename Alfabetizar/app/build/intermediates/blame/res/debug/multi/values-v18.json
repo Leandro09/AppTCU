@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Android\\proyectos\\AppTCU\\Git\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\values-v18\\values-v18.xml",
+        "outputFile": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\values-v18\\values-v18.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "C:\\Android\\proyectos\\AppTCU\\Git\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v18\\values-v18.xml",
+                    "file": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v18\\values-v18.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\values-v18\\values-v18.xml",
+        "outputFile": "C:\\Android\\proyectos\\AppTCU\\Git\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\values-v18\\values-v18.xml",
         "map": [
             {
                 "to": {
@@ -59,7 +59,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v18\\values-v18.xml",
+                    "file": "C:\\Android\\proyectos\\AppTCU\\Git\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v18\\values-v18.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

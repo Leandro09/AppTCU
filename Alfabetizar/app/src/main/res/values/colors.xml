@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#212121</color>
-    <color name="colorPrimaryDark">#212121</color>
-    <color name="colorAccent">#00897B</color>
+    <color name="colorPrimary">#263238</color> <!-- Color del 'menu' -->
+    <color name="colorPrimaryDark">#22272B</color> <!-- Color de la barra de notificaciones -->
+    <color name="colorAccent">#009688</color> <!-- Color de resaltado ... -->
 
-    <drawable name="red_color">#E53935</drawable>
-    <drawable name="blue_color">#039BE5</drawable>
-    <drawable name="yellow_color">#FDD835</drawable>
-    <drawable name="teal_color">#00897B</drawable>
+    <!-- Color de la barra de navegación inferior
+         Los dos primeros valores indican la transparencia (CC = 80%) -->
+    <color name="colorNavBar">#CC000000</color>
+
+    <drawable name="red_color">#F44336</drawable>
+    <drawable name="blue_color">#2196F3</drawable>
+    <drawable name="yellow_color">#FFEB3B</drawable>
+    <drawable name="teal_color">#009688</drawable>
     <drawable name="darkgray_color">#212121</drawable>
 </resources>
