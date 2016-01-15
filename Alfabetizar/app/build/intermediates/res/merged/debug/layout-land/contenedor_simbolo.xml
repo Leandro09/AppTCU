@@ -3,18 +3,6 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/textPrimera"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="59dp"
-        android:layout_marginStart="59dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,28 +10,24 @@
         android:id="@+id/btnSonido"
         android:onClick="reproducirSonido"
         android:layout_gravity="center_horizontal"
-        android:layout_marginRight="54dp"
-        android:layout_marginEnd="54dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_above="@+id/textSegunda" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/textSegunda"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/textPrimera"
-        android:layout_alignStart="@+id/textPrimera" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/textTercera"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/textPrimera"
-        android:layout_alignStart="@+id/textPrimera" />
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagen_uno"
+        android:layout_above="@+id/btnSonido"
+        android:layout_toLeftOf="@+id/btnSonido"
+        android:layout_toStartOf="@+id/btnSonido"
+        android:layout_marginBottom="58dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagen_dos"
+        android:layout_alignBottom="@+id/imagen_uno"
+        android:layout_toRightOf="@+id/btnSonido"
+        android:layout_toEndOf="@+id/btnSonido" />
 
 </RelativeLayout>

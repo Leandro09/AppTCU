@@ -1,5 +1,17 @@
 [
     {
+        "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\a.png",
+        "source": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\mipmap-hdpi\\a.png"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\anillo.png",
+        "source": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\mipmap-hdpi\\anillo.png"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\avispa.png",
+        "source": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\mipmap-hdpi\\avispa.png"
+    },
+    {
         "merged": "C:\\Users\\Lari\\Desktop\\TCU\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\Lari\\Desktop\\TCU\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
@@ -10,5 +22,9 @@
     {
         "merged": "C:\\Android\\proyectos\\AppTCU\\Git\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
         "source": "C:\\Android\\proyectos\\AppTCU\\Git\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\amarillo.png",
+        "source": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\mipmap-hdpi\\amarillo.png"
     }
 ]

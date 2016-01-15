@@ -5,15 +5,11 @@ import android.media.AudioManager;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.text.SpannableString;
-import android.text.style.UnderlineSpan;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.ImageView;
 
-import java.util.ArrayList;
 import java.util.Locale;
 
 
@@ -52,13 +48,32 @@ public class Controlador_Simbolo extends AppCompatActivity {
         char letraLeida = letraSubrayar.charAt(0);
         int asciiLetra =  (int)letraLeida;
         int posicion = asciiLetra - 'a';
-        colocarPalabras(letraSubrayar, posicion);
+        //colocarPalabras(letraSubrayar, posicion);
+        colocarImagen(posicion);
+    }
+
+
+    //metodo para colocar imagenes de acuerdo a la letra selecciona
+    public void colocarImagen(int posicion){
+
+        //int id = R.mipmap.amarillo + 4 * posicion;
+        int id = R.mipmap.amarillo;
+        ImageView img = (ImageView) findViewById(R.id.imagen_uno);
+        img.setImageResource(id);
+        ++id;
+        img = (ImageView) findViewById(R.id.imagen_dos);
+        img.setImageResource(id);
+
+
+
+
+
     }
 
 
     public void colocarPalabras(String letra, int posicion)
     {
-        SpannableString palabraSubrayada;
+        /*SpannableString palabraSubrayada;
         String letraTildada = " ";
         int contador = 0;
         ArrayList<String> lista = new ArrayList<String>();
@@ -140,7 +155,7 @@ public class Controlador_Simbolo extends AppCompatActivity {
                 }
 
             }
-        }
+        }*/
     }
 
     public void reproducirSonido(View view){
