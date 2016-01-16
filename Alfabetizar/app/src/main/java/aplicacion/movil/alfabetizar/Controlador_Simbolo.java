@@ -56,18 +56,33 @@ public class Controlador_Simbolo extends AppCompatActivity {
     //metodo para colocar imagenes de acuerdo a la letra selecciona
     public void colocarImagen(int posicion){
 
-        //int id = R.mipmap.amarillo + 4 * posicion;
-        int id = R.mipmap.amarillo;
-        ImageView img = (ImageView) findViewById(R.id.imagen_uno);
-        img.setImageResource(id);
-        ++id;
-        img = (ImageView) findViewById(R.id.imagen_dos);
-        img.setImageResource(id);
+        String nombreImagen = "";
+        String ubicacionImagen = "";
+        int res = 0;
+        ImageView img;
 
+        for(int contadorPosicion = 1; contadorPosicion < 4; ++contadorPosicion)
+        {
+            nombreImagen = "imagen"+posicion+"_"+contadorPosicion;
+            res = getResources().getIdentifier(nombreImagen, "drawable", this.getPackageName());
 
+            switch (contadorPosicion)
+            {
+                case 1:
+                    img = (ImageView)findViewById(R.id.imagen1);
+                    img.setImageResource(res);
+                    break;
 
+                case 2:
+                    img = (ImageView)findViewById(R.id.imagen2);
+                    img.setImageResource(res);
+                    break;
 
-
+                default:
+                img = (ImageView)findViewById(R.id.imagen3);
+                img.setImageResource(res);
+            }
+        }
     }
 
 
@@ -163,10 +178,14 @@ public class Controlador_Simbolo extends AppCompatActivity {
 
         switch (id)
         {
-            case R.id.btnSonido:
+            case R.id.btnSonido1:
                 sound.play(prueba);
                 break;
-
+            case R.id.btnSonido2:
+                sound.play(prueba);
+                break;
+            default:
+                sound.play(prueba);
         }
     }
 

@@ -73,10 +73,15 @@ public class Controlador_Tabs extends AppCompatActivity {
 
         switch (id)
         {
-            case R.id.btnSonido:
+            case R.id.btnSonido1:
                 sound.play(prueba);
                 break;
 
+            case R.id.btnSonido2:
+                sound.play(prueba);
+                break;
+            default:
+                sound.play(prueba);
         }
     }
 

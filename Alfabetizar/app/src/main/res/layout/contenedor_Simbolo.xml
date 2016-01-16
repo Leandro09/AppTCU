@@ -1,42 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_pantalla_simbolo">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/textPrimera"
-        android:text="@string/Prueba1"
-        android:layout_gravity="center_horizontal" />
+        android:id="@+id/imagen1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/imagen1_1"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagen2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/imagen1_1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagen3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/imagen1_1"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Sonido"
-        android:id="@+id/btnSonido"
+        android:id="@+id/btnSonido1"
         android:onClick="reproducirSonido"
+        android:background="@drawable/bt_sonido"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="70dp"
-        android:layout_below="@+id/textPrimera"
-        android:layout_centerHorizontal="true" />
+        android:layout_toRightOf="@+id/imagen1"
+        android:layout_toEndOf="@+id/imagen1" />
 
-    <TextView
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/textSegunda"
-        android:text="@string/Prueba2"
-        android:layout_below="@+id/btnSonido"
-        android:layout_marginTop="52dp" />
+        android:id="@+id/btnSonido2"
+        android:onClick="reproducirSonido"
+        android:background="@drawable/bt_sonido"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imagen2"
+        android:layout_toEndOf="@+id/imagen2" />
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/textTercera"
-        android:text="@string/Prueba3"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/btnSonido3"
+        android:onClick="reproducirSonido"
+        android:background="@drawable/bt_sonido"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imagen3"
+        android:layout_toEndOf="@+id/imagen3" />
 
 </RelativeLayout>
