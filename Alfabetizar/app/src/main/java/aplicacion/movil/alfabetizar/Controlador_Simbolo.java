@@ -43,46 +43,86 @@ public class Controlador_Simbolo extends AppCompatActivity {
 
     public void leerLetra(String letra)
     {
-
+        int resultado = -1;
+        int posicion = -1;
         String letraSubrayar = letra.toLowerCase(Locale.US);
         char letraLeida = letraSubrayar.charAt(0);
         int asciiLetra =  (int)letraLeida;
-        int posicion = asciiLetra - 'a';
-        //colocarPalabras(letraSubrayar, posicion);
-        colocarImagen(posicion);
+
+        resultado = verificarTipoLetra(letraSubrayar);
+        if( resultado == -1){
+            posicion = asciiLetra - 'a';
+            colocarImagen(posicion,true);
+        }else{
+            colocarImagen(resultado, false);
+        }
+
+    }
+
+
+    //metodo para buscar en arreglo de letras especiales
+    public int verificarTipoLetra(String letra){
+        int longitud = Controlador_Principal.letrasEspeciales.size();
+        int contador = 0;
+        Boolean indicador = false;
+        while(indicador == false && contador < longitud){
+            if(letra.equals(Controlador_Principal.letrasEspeciales.get(contador))==true){
+                indicador = true;
+            }else{
+                ++contador;
+            }
+        }
+
+        if(indicador == false){
+            contador = -1;
+        }
+
+        return contador;
     }
 
 
     //metodo para colocar imagenes de acuerdo a la letra selecciona
-    public void colocarImagen(int posicion){
-
+    public void colocarImagen(int posicion, boolean indicador ){
         String nombreImagen = "";
         String ubicacionImagen = "";
+        String inicioNombre = "";
         int res = 0;
         ImageView img;
 
-        for(int contadorPosicion = 1; contadorPosicion < 4; ++contadorPosicion)
-        {
-            nombreImagen = "imagen"+posicion+"_"+contadorPosicion;
+        if(indicador == true) {
+            inicioNombre = "imagen";
+        }else{
+            inicioNombre = "imagenLetraEspecial";
+        }
+
+        for(int contadorPosicion = 1; contadorPosicion <= 4; ++contadorPosicion) {
+            nombreImagen = inicioNombre + posicion + "_" + contadorPosicion;
             res = getResources().getIdentifier(nombreImagen, "drawable", this.getPackageName());
 
-            switch (contadorPosicion)
-            {
+            switch (contadorPosicion) {
                 case 1:
-                    img = (ImageView)findViewById(R.id.imagen1);
+                    img = (ImageView) findViewById(R.id.imagen1);
                     img.setImageResource(res);
                     break;
 
                 case 2:
-                    img = (ImageView)findViewById(R.id.imagen2);
+                    img = (ImageView) findViewById(R.id.imagen2);
+                    img.setImageResource(res);
+                    break;
+                case 3:
+                    img = (ImageView) findViewById(R.id.imagen3);
+                    img.setImageResource(res);
+                    break;
+                default:
+                    img = (ImageView) findViewById(R.id.imagen4);
                     img.setImageResource(res);
                     break;
 
-                default:
-                img = (ImageView)findViewById(R.id.imagen3);
-                img.setImageResource(res);
             }
         }
+
+
+
     }
 
 
