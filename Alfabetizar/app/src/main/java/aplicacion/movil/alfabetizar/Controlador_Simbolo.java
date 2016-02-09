@@ -92,7 +92,7 @@ public class Controlador_Simbolo extends AppCompatActivity {
         if(indicador == true) {
             inicioNombre = "imagen";
         }else{
-            inicioNombre = "imagenLetraEspecial";
+            inicioNombre = "imagen_letra_especial";
         }
 
         for(int contadorPosicion = 1; contadorPosicion <= 4; ++contadorPosicion) {
