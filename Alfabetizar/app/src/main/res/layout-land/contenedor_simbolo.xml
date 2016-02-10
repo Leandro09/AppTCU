@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_pantalla_simbolo"
-    >
+    android:background="@drawable/fondo_pantalla_simbolo">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imagen1"
-        android:src="@drawable/imagen0_1"
-        android:layout_below="@+id/imageView"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:src="@drawable/imagen0_1"
+        />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imagen2"
-        android:src="@drawable/imagen0_1"
-        android:layout_below="@+id/imagen1"
-        android:layout_alignLeft="@+id/imagen1"
-        android:layout_alignStart="@+id/imagen1" />
-
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/imagen0_1"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imagen4"
-        android:src="@drawable/imagen0_4"
-        android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:id="@+id/imagen3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/imagen0_1"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -39,8 +38,7 @@
         android:id="@+id/btnSonido1"
         android:onClick="reproducirSonido"
         android:background="@drawable/bt_sonido"
-        android:orientation="horizontal"
-        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
         android:layout_toRightOf="@+id/imagen1"
         android:layout_toEndOf="@+id/imagen1" />
 
@@ -51,27 +49,27 @@
         android:id="@+id/btnSonido2"
         android:onClick="reproducirSonido"
         android:background="@drawable/bt_sonido"
-        android:orientation="horizontal"
-        android:layout_above="@+id/imagen1"
-        android:layout_toRightOf="@+id/imageView"
-        android:layout_toEndOf="@+id/imageView" />
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imagen2"
+        android:layout_toEndOf="@+id/imagen2" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
+        android:id="@+id/btnSonido3"
         android:onClick="reproducirSonido"
         android:background="@drawable/bt_sonido"
-        android:layout_alignBottom="@+id/imagen2"
-        android:layout_toRightOf="@+id/imagen2"
-        android:layout_toEndOf="@+id/imagen2" />
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imagen3"
+        android:layout_toEndOf="@+id/imagen3" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:src="@drawable/imagen0_1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:id="@+id/imagen4"
+        android:src="@drawable/imagen0_4"
+        android:layout_alignTop="@+id/imagen2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
