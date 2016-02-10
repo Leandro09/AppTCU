@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -10,17 +10,29 @@
     android:background="@drawable/fondo_pantalla_principal"
     tools:context=".Controlador_Principal">
 
-    <Button
+    <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnIniciar"
-        android:background="@drawable/bt_comenzar"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="433dp"
-        android:layout_marginStart="433dp"
+        android:layout_marginLeft="398dp"
+        android:layout_marginStart="398dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/frameLayout">
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="93dp"
+        android:id="@+id/btnIniciar"
+        android:background="@drawable/bt_comenzar"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/frameLayout"
+        android:layout_alignStart="@+id/frameLayout"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
