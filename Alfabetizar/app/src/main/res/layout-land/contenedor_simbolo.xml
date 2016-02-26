@@ -9,9 +9,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/imagen1"
         android:src="@drawable/imagen0_1"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/imagen2"
-        android:layout_alignStart="@+id/imagen2" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_above="@+id/imagen2"
+        android:layout_alignRight="@+id/imagen2"
+        android:layout_alignEnd="@+id/imagen2" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -19,8 +21,8 @@
         android:id="@+id/imagen2"
         android:src="@drawable/imagen0_1"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/imagen3"
-        android:layout_alignStart="@+id/imagen3" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -28,10 +30,8 @@
         android:id="@+id/imagen3"
         android:src="@drawable/imagen0_1"
         android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/btnSonido3"
-        android:layout_toStartOf="@+id/btnSonido3"
-        android:layout_marginRight="47dp"
-        android:layout_marginEnd="47dp" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -40,8 +40,9 @@
         android:onClick="reproducirSonido"
         android:background="@drawable/bt_sonido"
         android:layout_gravity="center_horizontal"
-        android:layout_alignBottom="@+id/imagen1"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/imagen2"
+        android:layout_toRightOf="@+id/imagen1"
+        android:layout_toEndOf="@+id/imagen1" />
 
 
     <Button
@@ -51,8 +52,8 @@
         android:onClick="reproducirSonido"
         android:background="@drawable/bt_sonido"
         android:layout_alignBottom="@+id/imagen2"
-        android:layout_alignLeft="@+id/btnSonido1"
-        android:layout_alignStart="@+id/btnSonido1" />
+        android:layout_toRightOf="@+id/imagen2"
+        android:layout_toEndOf="@+id/imagen2" />
 
     <Button
         android:layout_width="wrap_content"
@@ -60,9 +61,9 @@
         android:id="@+id/btnSonido3"
         android:onClick="reproducirSonido"
         android:background="@drawable/bt_sonido"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/btnSonido2"
-        android:layout_alignStart="@+id/btnSonido2" />
+        android:layout_alignBottom="@+id/imagen3"
+        android:layout_toRightOf="@+id/imagen3"
+        android:layout_toEndOf="@+id/imagen3" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -71,8 +72,6 @@
         android:src="@drawable/imagen0_4"
         android:layout_alignTop="@+id/imagen2"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="47dp"
-        android:layout_marginEnd="47dp" />
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
