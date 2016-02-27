@@ -155,11 +155,11 @@ public class Controlador_Tabs extends AppCompatActivity {
 
                 String[] vocales = {"A","E","I","O","U"};
                 Integer[] imagenesVocales = {
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba
+                        R.drawable.imagen0_1,
+                        R.drawable.imagen0_1,
+                        R.drawable.imagen0_1,
+                        R.drawable.imagen0_1,
+                        R.drawable.imagen0_1
                 };
                 ListView listview;
 
