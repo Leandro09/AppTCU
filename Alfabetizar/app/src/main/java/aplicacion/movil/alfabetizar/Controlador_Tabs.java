@@ -19,10 +19,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Controlador_Tabs extends AppCompatActivity {
 
     /**
@@ -158,21 +154,41 @@ public class Controlador_Tabs extends AppCompatActivity {
             if(getArguments().getInt(ARG_SECTION_NUMBER) == 1){
 
                 String[] vocales = {"A","E","I","O","U"};
+                Integer[] imagenesVocales = {
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba
+                };
+                ListView listview;
 
-                final List<String> listaVocales = new ArrayList<String>(Arrays.asList(vocales));
+           //     final List<String> listaVocales = new ArrayList<String>(Arrays.asList(vocales));
 
-                letrasAdapter =
+                Controlador_ListaImagenes adapter = new Controlador_ListaImagenes(getActivity(), vocales, imagenesVocales);
+                listview = (ListView) rootView.findViewById(R.id.section_letters);
+                listview.setAdapter(adapter);
+
+
+
+
+
+         //       final List<String> listaVocales = new ArrayList<String>(Arrays.asList(vocales));
+
+          /*      letrasAdapter =
                         new ArrayAdapter<String>(
                                 getActivity(), // The current context (this activity)
                                 R.layout.lista_letras, // The name of the layout ID.
                                 R.id.lista_letras_textview, // The ID of the textview to populate.
-                                listaVocales);
+                                listaVocales); */
 
                 //rootView = inflater.inflate(R.layout.contenedor_tabs, container, false);
 
                 // Get a reference to the ListView, and attach this adapter to it.
                 //ListView listView = (ListView) rootView.findViewById(R.id.section_letters);
-                listView.setAdapter(letrasAdapter);
+
+
+            //    listView.setAdapter(letrasAdapter);
 
             }
 
@@ -202,20 +218,55 @@ public class Controlador_Tabs extends AppCompatActivity {
                         "Y",
                         "Z"};
 
-                List<String> listaConsonantes = new ArrayList<String>(Arrays.asList(consonantes));
+                Integer[] imagenesConsonantes = {
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                        R.drawable.imagen_prueba,
+                };
+                ListView listview;
 
-                letrasAdapter =
+                //     final List<String> listaVocales = new ArrayList<String>(Arrays.asList(vocales));
+
+                Controlador_ListaImagenes adapter = new Controlador_ListaImagenes(getActivity(), consonantes, imagenesConsonantes);
+                listview = (ListView) rootView.findViewById(R.id.section_letters);
+                listview.setAdapter(adapter);
+
+
+             //   List<String> listaConsonantes = new ArrayList<String>(Arrays.asList(consonantes));
+
+            /*    letrasAdapter =
                         new ArrayAdapter<String>(
                                 getActivity(), // The current context (this activity)
                                 R.layout.lista_letras, // The name of the layout ID.
                                 R.id.lista_letras_textview, // The ID of the textview to populate.
-                                listaConsonantes);
+                                listaConsonantes); */
 
                 //rootView = inflater.inflate(R.layout.contenedor_tabs, container, false);
 
                 // Get a reference to the ListView, and attach this adapter to it.
                 //ListView listView = (ListView) rootView.findViewById(R.id.section_letters);
-                listView.setAdapter(letrasAdapter);
+
+
+               /* listView.setAdapter(letrasAdapter); */
 
             }
             return rootView;
