@@ -40,9 +40,10 @@
         android:onClick="reproducirSonido"
         android:background="@drawable/bt_sonido"
         android:layout_gravity="center_horizontal"
-        android:layout_above="@+id/imagen2"
+        android:layout_alignTop="@+id/imagen1"
         android:layout_toRightOf="@+id/imagen1"
-        android:layout_toEndOf="@+id/imagen1" />
+        android:layout_toEndOf="@+id/imagen1"
+        android:layout_marginTop="22dp" />
 
 
     <Button
@@ -51,7 +52,7 @@
         android:id="@+id/btnSonido2"
         android:onClick="reproducirSonido"
         android:background="@drawable/bt_sonido"
-        android:layout_alignBottom="@+id/imagen2"
+        android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/imagen2"
         android:layout_toEndOf="@+id/imagen2" />
 
@@ -61,9 +62,10 @@
         android:id="@+id/btnSonido3"
         android:onClick="reproducirSonido"
         android:background="@drawable/bt_sonido"
-        android:layout_alignBottom="@+id/imagen3"
+        android:layout_alignTop="@+id/imagen3"
         android:layout_toRightOf="@+id/imagen3"
-        android:layout_toEndOf="@+id/imagen3" />
+        android:layout_toEndOf="@+id/imagen3"
+        android:layout_marginTop="22dp" />
 
     <ImageView
         android:layout_width="wrap_content"
