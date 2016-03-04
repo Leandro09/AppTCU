@@ -155,11 +155,11 @@ public class Controlador_Tabs extends AppCompatActivity {
 
                 String[] vocales = {"A","E","I","O","U"};
                 Integer[] imagenesVocales = {
-                        R.drawable.imagen0_1,
-                        R.drawable.imagen0_1,
-                        R.drawable.imagen0_1,
-                        R.drawable.imagen0_1,
-                        R.drawable.imagen0_1
+                        R.drawable.abeja_imagen,
+                        R.drawable.elefante_imagen,
+                        R.drawable.iglesia_imagen,
+                        R.drawable.oso_imagen,
+                        R.drawable.uva_imagen
                 };
                 ListView listview;
 
@@ -219,28 +219,28 @@ public class Controlador_Tabs extends AppCompatActivity {
                         "Z"};
 
                 Integer[] imagenesConsonantes = {
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
-                        R.drawable.imagen_prueba,
+                        R.drawable.banano_imagen,
+                        R.drawable.caballo_imagen,
+                        R.drawable.dedo_imagen,
+                        R.drawable.foca_imagen,
+                        R.drawable.girasol_imagen,
+                        R.drawable.jirafa_imagen,
+                        R.drawable.kiwi_imagen,
+                        R.drawable.limon_imagen,
+                        R.drawable.llave_imagen,
+                        R.drawable.mono_imagen,
+                        R.drawable.naranja_imagen,
+                        R.drawable.una_imagen,
+                        R.drawable.pajaron_imagen,
+                        R.drawable.queque_imagen,
+                        R.drawable.rosa_imagen,
+                        R.drawable.sol_imagen,
+                        R.drawable.tortuga_imagen,
+                        R.drawable.vaca_imagen,
+                        R.drawable.sandwich_imagen,
+                        R.drawable.xilofono_imagen,
+                        R.drawable.yogurt_imagen,
+                        R.drawable.zanahoria_imagen
                 };
                 ListView listview;
 

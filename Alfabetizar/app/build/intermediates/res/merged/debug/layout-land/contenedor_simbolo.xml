@@ -43,7 +43,7 @@
         android:layout_alignTop="@+id/imagen1"
         android:layout_toRightOf="@+id/imagen1"
         android:layout_toEndOf="@+id/imagen1"
-        android:layout_marginTop="22dp" />
+        android:layout_marginTop="23dp" />
 
 
     <Button
@@ -62,10 +62,10 @@
         android:id="@+id/btnSonido3"
         android:onClick="reproducirSonido"
         android:background="@drawable/bt_sonido"
+        android:layout_marginTop="23dp"
         android:layout_alignTop="@+id/imagen3"
         android:layout_toRightOf="@+id/imagen3"
-        android:layout_toEndOf="@+id/imagen3"
-        android:layout_marginTop="22dp" />
+        android:layout_toEndOf="@+id/imagen3" />
 
     <ImageView
         android:layout_width="wrap_content"
