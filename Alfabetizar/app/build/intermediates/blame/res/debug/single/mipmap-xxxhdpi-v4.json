@@ -4,11 +4,11 @@
         "source": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Lari\\Desktop\\TCU\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Lari\\Desktop\\TCU\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lari\\Desktop\\TCU\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Lari\\Desktop\\TCU\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]

@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
+import com.juliomarcos.ImageViewPopUpHelper;
+
 import java.util.Locale;
 
 
@@ -103,19 +105,22 @@ public class Controlador_Simbolo extends AppCompatActivity {
                 case 1:
                     img = (ImageView) findViewById(R.id.imagen1);
                     img.setImageResource(res);
+                    ImageViewPopUpHelper.enablePopUpOnClick(this, img);
                     break;
-
                 case 2:
                     img = (ImageView) findViewById(R.id.imagen2);
                     img.setImageResource(res);
+                    ImageViewPopUpHelper.enablePopUpOnClick(this, img);
                     break;
                 case 3:
                     img = (ImageView) findViewById(R.id.imagen3);
                     img.setImageResource(res);
+                    ImageViewPopUpHelper.enablePopUpOnClick(this, img);
                     break;
                 default:
                     img = (ImageView) findViewById(R.id.imagen4);
                     img.setImageResource(res);
+                    ImageViewPopUpHelper.enablePopUpOnClick(this, img);
                     break;
 
             }
