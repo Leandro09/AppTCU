@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
-import com.juliomarcos.ImageViewPopUpHelper;
 
 import java.util.Locale;
 

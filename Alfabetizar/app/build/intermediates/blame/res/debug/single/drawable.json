@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_list_view.xml",
-        "source": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\drawable\\selector_list_view.xml"
-    },
-    {
         "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
         "source": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_list_view.xml",
+        "source": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\drawable\\selector_list_view.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",

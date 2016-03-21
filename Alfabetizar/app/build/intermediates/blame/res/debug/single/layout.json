@@ -1,27 +1,27 @@
 [
     {
-        "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "C:\\Users\\Lari\\Desktop\\TCU\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_tabs.xml",
         "source": "C:\\Users\\Lari\\Desktop\\TCU\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_tabs.xml"
     },
     {
-        "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_inicial.xml",
-        "source": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_inicial.xml"
-    },
-    {
         "merged": "C:\\Users\\Lari\\Desktop\\TCU\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\Lari\\Desktop\\TCU\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_inicial.xml",
+        "source": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_inicial.xml"
     },
     {
         "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Lari\\Desktop\\TCU\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\Users\\jedup\\Documents\\GitHub\\TCU\\Repositorio\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "C:\\Users\\Luis\\Desktop\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
