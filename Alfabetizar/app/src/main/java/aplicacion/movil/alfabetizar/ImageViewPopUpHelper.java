@@ -28,7 +28,7 @@ public class ImageViewPopUpHelper {
 
     private void cacheResizedImage(ImageView imageView) {
         this.imageViewDrawable = imageView.getDrawable();
-        imageViewDrawable = ImageViewPopUpHelper.this.scaleImage(imageViewDrawable,2f);
+        imageViewDrawable = ImageViewPopUpHelper.this.scaleImage(imageViewDrawable,3.5f);
         int imageRealWidth = this.imageViewDrawable.getIntrinsicWidth();
         int imageRealHeight = this.imageViewDrawable.getIntrinsicHeight();
         Point screenDimensions = this.getScreenDimensions(this.context);

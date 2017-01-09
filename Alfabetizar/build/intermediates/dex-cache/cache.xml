@@ -2,46 +2,85 @@
 <items version="2" >
 
     <item
-        jar="E:\Users\jedup\Documents\GitHub\TCU\Repositorio\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\exploded-aar\com.android.support\percent\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="E:\Users\jedup\Documents\GitHub\TCU\Repositorio\AppTCU\Alfabetizar\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_b537c6f3d30166542a9f7ce638f434fdd2ec9fa2.jar" />
+        sha1="de44758258139805d12d5d023b04f58e2010dacc">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-percent-23.3.0_e85fe04d4cfc91e69d04b66041ec68f64d3b8cb3\classes.dex" />
     </item>
     <item
-        jar="E:\Users\jedup\Documents\GitHub\TCU\Repositorio\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="E:\Users\jedup\Documents\GitHub\TCU\Repositorio\AppTCU\Alfabetizar\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_11f4375a889fa7b65c18e7afd81559b72eed2924.jar" />
-    </item>
-    <item
-        jar="E:\Users\jedup\Documents\GitHub\TCU\Repositorio\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="E:\Users\jedup\Documents\GitHub\TCU\Repositorio\AppTCU\Alfabetizar\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_07dd0505615a379362d05522a418bf845fde4eec.jar" />
-    </item>
-    <item
-        jar="E:\Users\jedup\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="E:\Users\jedup\Documents\GitHub\TCU\Repositorio\AppTCU\Alfabetizar\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_ad2ef8699e13186a7151e3e6257a036a52303812.jar" />
-    </item>
-    <item
-        jar="E:\Users\jedup\Documents\GitHub\TCU\Repositorio\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.2"
         sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="E:\Users\jedup\Documents\GitHub\TCU\Repositorio\AppTCU\Alfabetizar\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_2b389f3bfdae65d053e7b94d35cab322880f3712.jar" />
+        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_48b2d60a80c462273c1585279f914803870ccd94\classes.dex" />
     </item>
     <item
-        jar="E:\Users\jedup\Documents\GitHub\TCU\Repositorio\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="E:\Users\jedup\Documents\GitHub\TCU\Repositorio\AppTCU\Alfabetizar\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_33d6c019b1b4f0cf9c514b7b12609089e1678c74.jar" />
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_24e89629b51b5d6523dfc27ac59627f7caeb91d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="91ed1c527bef724286f6bbb69a93e1343d4cf26d">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3db5bfd36aa71726d384ff379a863b2e2a9fd344\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_f6c797e985ac43c17bae05303ff9127ae92c5126\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_1c0d2570b85310402180a99360cba1e84661567f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_583c5d89fec8265656b1f1e5a17b255df3c13f04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5817ad6ad7bba5624cd3d97d2ec4a2a147bd8f6c">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_69a093923f7b0ec560bddb5ee1c5e37644306714\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_2bc94b671245c70ad045897a9580c6498521740b\classes.dex" />
     </item>
 
 </items>
