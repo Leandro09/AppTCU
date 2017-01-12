@@ -3,12 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\exploded-aar\com.android.support\percent\23.3.0\jars\classes.jar"
+        jar="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="de44758258139805d12d5d023b04f58e2010dacc">
-        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-percent-23.3.0_e85fe04d4cfc91e69d04b66041ec68f64d3b8cb3\classes.dex" />
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_54af109198599fd04428ece47fa9770e6bedf1af\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -18,15 +18,6 @@
         revision="23.0.2"
         sha1="09c5e804bc67fc0580360043dff067df574a60d4">
         <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_48b2d60a80c462273c1585279f914803870ccd94\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_24e89629b51b5d6523dfc27ac59627f7caeb91d4\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,15 +48,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_583c5d89fec8265656b1f1e5a17b255df3c13f04\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -75,12 +57,102 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="73326b01787a9abc063527c4009b63722829d2b7">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_146b178cbba9ab29e566282fa0d8b49ab6e9987d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\exploded-aar\com.android.support\percent\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de44758258139805d12d5d023b04f58e2010dacc">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-percent-23.3.0_e85fe04d4cfc91e69d04b66041ec68f64d3b8cb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_a189489079351cf65257559260ef10e0aeecbf95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_24e89629b51b5d6523dfc27ac59627f7caeb91d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_da2b5edf45fb6b0b4f1743153e445f309ca57f28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_583c5d89fec8265656b1f1e5a17b255df3c13f04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_8b608505c1bb62b4a768032c32750e51ceb13013\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_ee7be10bdf8ae9c19c2c615962b6adaec4ac8922\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
         <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_2bc94b671245c70ad045897a9580c6498521740b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\percent\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de44758258139805d12d5d023b04f58e2010dacc">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-percent-23.3.0_846391aa637523c7e6750d84425bb32cb82425f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c515e1770a2a27b527caf061a6d3adab62df9705">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_129c7faf4f8058c5ed12d8b14e8adfe114f26c80\classes.dex" />
     </item>
 
 </items>

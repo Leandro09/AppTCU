@@ -63,25 +63,6 @@ public class Controlador_Tabs extends AppCompatActivity {
 
     }
 
-
-    public void reproducirSonido(View view){
-        int id = view.getId();
-
-        switch (id)
-        {
-            case R.id.btnSonido1:
-                sound.play(prueba);
-                break;
-
-            case R.id.btnSonido2:
-                sound.play(prueba);
-                break;
-            default:
-                sound.play(prueba);
-        }
-    }
-
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will

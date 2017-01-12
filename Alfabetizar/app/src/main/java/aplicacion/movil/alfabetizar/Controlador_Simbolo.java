@@ -22,7 +22,7 @@ public class Controlador_Simbolo extends AppCompatActivity {
 
 
     Controlador_Sonidos sound;
-    int prueba;
+    int sonido1, sonido2, sonido3, sonido4; //Variables que van a contener los audios de cada boton
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,10 +32,11 @@ public class Controlador_Simbolo extends AppCompatActivity {
         //getIntent().getExtras().getChar("Letra");
         String letra = getIntent().getStringExtra("Letra");
         System.out.println("saf"+letra);
-        leerLetra(letra);
+
         sound = new Controlador_Sonidos(getApplicationContext());
         this.setVolumeControlStream(AudioManager.STREAM_MUSIC);
-        prueba = sound.load(R.raw.prueba);
+
+        leerLetra(letra); //Debe estár después de haberse inicializado la variable "sound"
 
         //Boton(flecha) de retorno
         ActionBar ab = getSupportActionBar();
@@ -86,40 +87,58 @@ public class Controlador_Simbolo extends AppCompatActivity {
     public void colocarImagen(int posicion, boolean indicador ){
         String nombreImagen = "";
         String ubicacionImagen = "";
-        String inicioNombre = "";
-        int res = 0;
+        String inicioNombreImagen = "";
+        int drawableResourceId = 0;   //Imagenes
         ImageView img;
 
+        String nombreSonido = "";
+        String inicioNombreSonido = "";
+        int rawResourceId;        //Sonidos
+
+
         if(indicador == true) {
-            inicioNombre = "imagen";
+            inicioNombreImagen = "imagen";
+            inicioNombreSonido = "audio";
         }else{
-            inicioNombre = "imagen_letra_especial";
+            inicioNombreImagen = "imagen_letra_especial";
+            inicioNombreSonido = "audio_letra_especial";
         }
 
         for(int contadorPosicion = 1; contadorPosicion <= 4; ++contadorPosicion) {
-            nombreImagen = inicioNombre + posicion + "_" + contadorPosicion;
-            res = getResources().getIdentifier(nombreImagen, "drawable", this.getPackageName());
+            nombreImagen = inicioNombreImagen + posicion + "_" + contadorPosicion;
+            drawableResourceId = getResources().getIdentifier( nombreImagen, "drawable", this.getPackageName());
+
+            nombreSonido = inicioNombreSonido + posicion + "_" + contadorPosicion;
+            rawResourceId = getResources().getIdentifier( nombreSonido, "raw", this.getPackageName());
 
             switch (contadorPosicion) {
                 case 1:
                     img = (ImageView) findViewById(R.id.imagen1);
-                    img.setImageResource(res);
+                    img.setImageResource(drawableResourceId);
                     ImageViewPopUpHelper.enablePopUpOnClick(this, img);
+
+                    sonido1 = sound.load(rawResourceId);
                     break;
                 case 2:
                     img = (ImageView) findViewById(R.id.imagen2);
-                    img.setImageResource(res);
+                    img.setImageResource(drawableResourceId);
                     ImageViewPopUpHelper.enablePopUpOnClick(this, img);
+
+                    sonido2 = sound.load(rawResourceId);
                     break;
                 case 3:
                     img = (ImageView) findViewById(R.id.imagen3);
-                    img.setImageResource(res);
+                    img.setImageResource(drawableResourceId);
                     ImageViewPopUpHelper.enablePopUpOnClick(this, img);
+
+                    sonido3 = sound.load(rawResourceId);
                     break;
                 default:
                     img = (ImageView) findViewById(R.id.imagen4);
-                    img.setImageResource(res);
+                    img.setImageResource(drawableResourceId);
                     ImageViewPopUpHelper.enablePopUpOnClick(this, img);
+
+                    sonido4 = sound.load(rawResourceId);
                     break;
 
             }
@@ -223,13 +242,16 @@ public class Controlador_Simbolo extends AppCompatActivity {
         switch (id)
         {
             case R.id.btnSonido1:
-                sound.play(prueba);
+                sound.play(sonido1);
                 break;
             case R.id.btnSonido2:
-                sound.play(prueba);
+                sound.play(sonido2);
+                break;
+            case R.id.btnSonido3:
+                sound.play(sonido3);
                 break;
             default:
-                sound.play(prueba);
+                sound.play(sonido4);
         }
     }
 
