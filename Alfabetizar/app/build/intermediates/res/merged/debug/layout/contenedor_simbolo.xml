@@ -1,75 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo_pantalla_simbolo">
 
+
+    <Button
+        android:background="@drawable/bt_sonido"
+        android:id="@+id/btnSonido1"
+        android:onClick="reproducirSonido"
+        app:layout_widthPercent="25%"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="5%"
+        app:layout_marginLeftPercent="40%"/>
+
+    <Button
+        android:background="@drawable/bt_sonido"
+        android:id="@+id/btnSonido2"
+        android:onClick="reproducirSonido"
+        app:layout_widthPercent="25%"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="45%"
+        app:layout_marginLeftPercent="40%"/>
+
+    <Button
+        android:background="@drawable/bt_sonido"
+        android:id="@+id/btnSonido3"
+        android:onClick="reproducirSonido"
+        app:layout_widthPercent="25%"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="85%"
+        app:layout_marginLeftPercent="40%"/>
+
+    <Button
+        android:background="@drawable/bt_sonido"
+        android:id="@+id/btnSonido4"
+        android:onClick="reproducirSonido"
+        app:layout_widthPercent="25%"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="50%"
+        app:layout_marginLeftPercent="67.5%"/>
+
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imagen1"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:src="@drawable/imagen9_1"
+        android:id="@+id/imagen1"
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="0%"
+        app:layout_marginLeftPercent="0%"
+        />
+    <ImageView
+        android:src="@drawable/imagen9_2"
+        android:id="@+id/imagen2"
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="40%"
+        app:layout_marginLeftPercent="0%"
+        />
+    <ImageView
+        android:src="@drawable/imagen9_3"
+        android:id="@+id/imagen3"
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="80%"
+        app:layout_marginLeftPercent="0%"
         />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imagen2"
-        android:src="@drawable/imagen9_2"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imagen3"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/imagen9_3"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnSonido1"
-        android:onClick="reproducirSonido"
-        android:background="@drawable/bt_sonido"
-        android:layout_gravity="center_horizontal"
-        android:layout_alignBottom="@+id/imagen1"
-        android:layout_toRightOf="@+id/imagen1"
-        android:layout_toEndOf="@+id/imagen1" />
-
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnSonido2"
-        android:onClick="reproducirSonido"
-        android:background="@drawable/bt_sonido"
-        android:layout_alignBottom="@+id/imagen2"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnSonido3"
-        android:onClick="reproducirSonido"
-        android:background="@drawable/bt_sonido"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/imagen3"
-        android:layout_toEndOf="@+id/imagen3" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:src="@drawable/imagen9_4"
         android:id="@+id/imagen4"
-        android:src="@drawable/imagen0_4"
-        android:layout_alignTop="@+id/imagen2"
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="30%"
+        app:layout_marginLeftPercent="60%"
+        android:layout_marginBottom="25dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-</RelativeLayout>
+</android.support.percent.PercentRelativeLayout>
