@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="91ed1c527bef724286f6bbb69a93e1343d4cf26d">
+        sha1="85b3a1c7556a027b38c1c900a95d18711de995f4">
         <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3db5bfd36aa71726d384ff379a863b2e2a9fd344\classes.dex" />
     </item>
     <item
@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="5817ad6ad7bba5624cd3d97d2ec4a2a147bd8f6c">
+        sha1="82e6bc161ff9572ec770a72fdd241974e081624e">
         <dex dex="E:\Users\jedup\Documents\GitHub\AlfabetizarTCU\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_69a093923f7b0ec560bddb5ee1c5e37644306714\classes.dex" />
     </item>
     <item
@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="73326b01787a9abc063527c4009b63722829d2b7">
+        sha1="70501c301f1a70fde4c81db93d89001f56fc531e">
         <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_146b178cbba9ab29e566282fa0d8b49ab6e9987d\classes.dex" />
     </item>
     <item
@@ -151,7 +151,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="c515e1770a2a27b527caf061a6d3adab62df9705">
+        sha1="594204453a08ab05938158ae0971701991f70d97">
         <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_129c7faf4f8058c5ed12d8b14e8adfe114f26c80\classes.dex" />
     </item>
 

@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.ImageView;
 
 
@@ -36,7 +37,7 @@ public class Controlador_Simbolo extends AppCompatActivity {
         sound = new Controlador_Sonidos(getApplicationContext());
         this.setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
-        leerLetra(letra); //Debe estár después de haberse inicializado la variable "sound"
+        leerLetra(letra); //Debe estar después de haberse inicializado la variable "sound"
 
         //Boton(flecha) de retorno
         ActionBar ab = getSupportActionBar();
@@ -117,28 +118,60 @@ public class Controlador_Simbolo extends AppCompatActivity {
                     img.setImageResource(drawableResourceId);
                     ImageViewPopUpHelper.enablePopUpOnClick(this, img);
 
-                    sonido1 = sound.load(rawResourceId);
+                    //Carga del audio de la segunda palabra
+                    if (rawResourceId != 0) {
+                        //Carga el audio si existe
+                        sonido1 = sound.load(rawResourceId);
+                    } else {
+                        //Si el audio no existe entonces no muestra el boton en la pantalla
+                        Button botonAudio = (Button)findViewById(R.id.btnSonido1);
+                        botonAudio.setVisibility(View.INVISIBLE);
+                    }
                     break;
                 case 2:
                     img = (ImageView) findViewById(R.id.imagen2);
                     img.setImageResource(drawableResourceId);
                     ImageViewPopUpHelper.enablePopUpOnClick(this, img);
 
-                    sonido2 = sound.load(rawResourceId);
+                    //Carga el audio de la segunda palabra
+                    if (rawResourceId != 0) {
+                        //Carga el audio si existe
+                        sonido2 = sound.load(rawResourceId);
+                    } else {
+                        //Si el audio no existe entonces no muestra el boton en la pantalla
+                        Button botonAudio = (Button)findViewById(R.id.btnSonido2);
+                        botonAudio.setVisibility(View.INVISIBLE);
+                    }
                     break;
                 case 3:
                     img = (ImageView) findViewById(R.id.imagen3);
                     img.setImageResource(drawableResourceId);
                     ImageViewPopUpHelper.enablePopUpOnClick(this, img);
 
-                    sonido3 = sound.load(rawResourceId);
+                    //Carga el audio de la tercer palabra
+                    if (rawResourceId != 0) {
+                        //Carga el audio si existe
+                        sonido3 = sound.load(rawResourceId);
+                    } else {
+                        //Si el audio no existe entonces no muestra el boton en la pantalla
+                        Button botonAudio = (Button)findViewById(R.id.btnSonido3);
+                        botonAudio.setVisibility(View.INVISIBLE);
+                    }
                     break;
                 default:
                     img = (ImageView) findViewById(R.id.imagen4);
                     img.setImageResource(drawableResourceId);
                     ImageViewPopUpHelper.enablePopUpOnClick(this, img);
 
-                    sonido4 = sound.load(rawResourceId);
+                    //Carga el audio de la "cuarta" palabra (letra)
+                    if (rawResourceId != 0) {
+                        //Carga el audio si existe
+                        sonido4 = sound.load(rawResourceId);
+                    } else {
+                        //Si el audio no existe entonces no muestra el boton en la pantalla
+                        Button botonAudio = (Button)findViewById(R.id.btnSonido4);
+                        botonAudio.setVisibility(View.INVISIBLE);
+                    }
                     break;
 
             }
