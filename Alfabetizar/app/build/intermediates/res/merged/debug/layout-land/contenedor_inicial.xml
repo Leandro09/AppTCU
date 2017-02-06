@@ -8,14 +8,28 @@
     tools:context=".Controlador_Principal">
 
     <Button
+        android:background="@drawable/bt_copyright"
+        android:id="@+id/btnCopyright"
+        android:onClick="reproducirSonido"
+        android:layout_gravity="center_horizontal"
+        app:layout_widthPercent="13%"
+        app:layout_heightPercent="23%"
+        app:layout_marginTopPercent="0%"
+        app:layout_marginRightPercent="0%"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
         android:background="@drawable/bt_comenzar"
         android:id="@+id/btnIniciar"
         android:onClick="reproducirSonido"
         android:layout_gravity="center_horizontal"
-        app:layout_widthPercent="35%"
+        app:layout_widthPercent="28%"
         app:layout_heightPercent="35%"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
 
 </android.support.percent.PercentRelativeLayout>

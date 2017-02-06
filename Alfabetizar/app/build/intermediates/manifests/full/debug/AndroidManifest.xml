@@ -22,7 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="aplicacion.movil.alfabetizar.Controlador_Lista" />
         <activity android:name="aplicacion.movil.alfabetizar.Controlador_Simbolo" />
         <activity
             android:name="aplicacion.movil.alfabetizar.Controlador_Tabs"
