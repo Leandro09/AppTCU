@@ -159,7 +159,7 @@ public class Controlador_Tabs extends AppCompatActivity {
           /*      letrasAdapter =
                         new ArrayAdapter<String>(
                                 getActivity(), // The current context (this activity)
-                                R.layout.lista_letras, // The name of the layout ID.
+                                R.layout.lista_letras_menu, // The name of the layout ID.
                                 R.id.lista_letras_textview, // The ID of the textview to populate.
                                 listaVocales); */
 
@@ -237,7 +237,7 @@ public class Controlador_Tabs extends AppCompatActivity {
             /*    letrasAdapter =
                         new ArrayAdapter<String>(
                                 getActivity(), // The current context (this activity)
-                                R.layout.lista_letras, // The name of the layout ID.
+                                R.layout.lista_letras_menu, // The name of the layout ID.
                                 R.id.lista_letras_textview, // The ID of the textview to populate.
                                 listaConsonantes); */
 

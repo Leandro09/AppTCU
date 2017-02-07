@@ -16,10 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Controlador_Simbolo"></activity>
+        <activity android:name=".Controlador_Simbolo" />
         <activity
             android:name=".Controlador_Tabs"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Controlador_Creditos"></activity>
     </application>
 
 </manifest>

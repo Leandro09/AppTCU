@@ -26,6 +26,7 @@
         <activity
             android:name="aplicacion.movil.alfabetizar.Controlador_Tabs"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="aplicacion.movil.alfabetizar.Controlador_Creditos" />
     </application>
 
 </manifest>

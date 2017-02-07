@@ -27,10 +27,20 @@ public class Controlador_Principal extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         llenarArreglo();
+
+        //Boton COMENZAR
         findViewById(R.id.btnIniciar).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Controlador_Principal.this, Controlador_Tabs.class));
+            }
+        });
+
+        //Boton CREDITOS
+        findViewById(R.id.btnCopyright).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Controlador_Principal.this, Controlador_Creditos.class));
             }
         });
 
