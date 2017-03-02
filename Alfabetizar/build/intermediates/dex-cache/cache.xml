@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="030671562d68416cba3dd9b1541700f766ebd865">
+        sha1="d16f1ba516bf3e6ea0645379a745bbd2e1a22013">
         <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_146b178cbba9ab29e566282fa0d8b49ab6e9987d\classes.dex" />
     </item>
     <item
@@ -151,7 +151,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="f29f53f952fe491dab19c44b493abe9e372a5d50">
+        sha1="605f26c3ee29fcae56120f3c008bd032b40576d3">
         <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_129c7faf4f8058c5ed12d8b14e8adfe114f26c80\classes.dex" />
     </item>
 

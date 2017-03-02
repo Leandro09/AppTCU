@@ -21,46 +21,40 @@ public class DatosCreditosListaExpandible {
                 "\n\n" +
                 "Dra. Marielos Murillo Rojas\n" +
                 "Profesora Catedrática\n" +
-                "Universidad de Costa Rica " +
-                "\n\n" +
-                "Dr. Carlos Sánchez Avendaño\n" +
-                "Profesor Catedrático\n" +
-                "Universidad de Costa Rica");
+                "Universidad de Costa Rica ");
 
         List<String> seccion2 = new ArrayList<String>();
         seccion2.add(
-                "Señor\n" +
+                "Dr. Carlos Sánchez Avendaño\n" +
+                "Profesor Catedrático\n" +
+                "Universidad de Costa Rica" +
+                "\n\n" +
                 "Adrián Brenes Jiménez \n" +
                 "Técnico en Grabación\n" +
                 "Radioemisoras UCR" +
                 "\n\n" +
-                "Señora\n" +
                 "Catherine Prado Goyenaga\n" +
                 "Coordinadora General \n" +
                 "Radioemisoras UCR");
 
         List<String> seccion3 = new ArrayList<String>();
         seccion3.add(
-                "Señorita\n" +
                 "Isabel Acuña Calderón\n" +
-                "Estudiante de Diseño Gráfico \n" +
+                "Carrera de Diseño Gráfico \n" +
                 "Universidad de Costa Rica");
 
         List<String> seccion4 = new ArrayList<String>();
         seccion4.add(
-                "Señorita\n" +
                 "Larissa Arroyo Castillo\n" +
-                "Estudiante de Computación e Informática \n" +
+                "Carrera de Computación e Informática \n" +
                 "Universidad de Costa Rica" +
                 "\n\n" +
-                "Señorito\n" +
                 "Luis Leandro Jiménez\n" +
-                "Estudiante de Computación e Informática \n" +
+                "Carrera de Computación e Informática \n" +
                 "Universidad de Costa Rica"  +
                 "\n\n" +
-                "Señorito\n" +
                 "José Eduardo Picado Salas\n" +
-                "Estudiante de Computación e Informática \n" +
+                "Carrera de Computación e Informática \n" +
                 "Universidad de Costa Rica");
 
 
