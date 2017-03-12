@@ -15,10 +15,10 @@ ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\Andro
 		INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
 application
 ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:5:5-24:19
-MERGED from [com.android.support:design:23.1.1] E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:percent:23.3.0] E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\percent\23.3.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.3.0] E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] C:\Users\jedup\.android\build-cache\86f737fa768a368e81f76cbb72c533de322b1970\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\jedup\.android\build-cache\f4ca59f9e22cd730afc68ce74ed4377c52e884d0\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:percent:23.3.0] C:\Users\jedup\.android\build-cache\f89dffc6538b418671e4f7563ab4d3a225531dd0\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\jedup\.android\build-cache\9713d50cef98c7d500a98fd0e8322d8217e2be1b\output\AndroidManifest.xml:22:5-20
 	android:screenOrientation
 		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:9:9-46
 	android:label
@@ -61,11 +61,11 @@ ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\Andro
 		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:23:19-55
 uses-sdk
 INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:23.1.1] E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.1] E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:percent:23.3.0] E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\percent\23.3.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.3.0] E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] C:\Users\jedup\.android\build-cache\86f737fa768a368e81f76cbb72c533de322b1970\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\jedup\.android\build-cache\f4ca59f9e22cd730afc68ce74ed4377c52e884d0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\jedup\.android\build-cache\c23d50f3e4c802cc6b78ec2fa661a782275ee333\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:percent:23.3.0] C:\Users\jedup\.android\build-cache\f89dffc6538b418671e4f7563ab4d3a225531dd0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\jedup\.android\build-cache\9713d50cef98c7d500a98fd0e8322d8217e2be1b\output\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml

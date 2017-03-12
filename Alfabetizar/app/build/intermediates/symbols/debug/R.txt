@@ -786,6 +786,7 @@ int id imagen2 0x7f0d0077
 int id imagen3 0x7f0d0078
 int id imagen4 0x7f0d0079
 int id imagenLetras 0x7f0d0085
+int id imagenZoom 0x7f0d0093
 int id info 0x7f0d0091
 int id item_touch_helper_previous_elevation 0x7f0d0005
 int id left 0x7f0d0022
@@ -922,6 +923,7 @@ int layout select_dialog_item_material 0x7f040034
 int layout select_dialog_multichoice_material 0x7f040035
 int layout select_dialog_singlechoice_material 0x7f040036
 int layout support_simple_spinner_dropdown_item 0x7f040037
+int layout zoom 0x7f040038
 int mipmap ic_launcher 0x7f030000
 int raw audio0_1 0x7f060000
 int raw audio0_2 0x7f060001

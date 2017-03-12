@@ -2522,6 +2522,7 @@ containing a value of this type.
         public static final int imagen3=0x7f0d0078;
         public static final int imagen4=0x7f0d0079;
         public static final int imagenLetras=0x7f0d0085;
+        public static final int imagenZoom=0x7f0d0093;
         public static final int info=0x7f0d0091;
         public static final int item_touch_helper_previous_elevation=0x7f0d0005;
         public static final int left=0x7f0d0022;
@@ -2662,6 +2663,7 @@ containing a value of this type.
         public static final int select_dialog_multichoice_material=0x7f040035;
         public static final int select_dialog_singlechoice_material=0x7f040036;
         public static final int support_simple_spinner_dropdown_item=0x7f040037;
+        public static final int zoom=0x7f040038;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;

@@ -1,12 +1,15 @@
 package aplicacion.movil.alfabetizar;
 
+import android.app.Dialog;
 import android.content.pm.ActivityInfo;
+import android.content.res.Resources;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -116,7 +119,7 @@ public class Controlador_Simbolo extends AppCompatActivity {
                 case 1:
                     img = (ImageView) findViewById(R.id.imagen1);
                     img.setImageResource(drawableResourceId);
-                    ImageViewPopUpHelper.enablePopUpOnClick(this, img);
+                    mostrarZoom(img);
 
                     //Carga del audio de la segunda palabra
                     if (rawResourceId != 0) {
@@ -131,7 +134,7 @@ public class Controlador_Simbolo extends AppCompatActivity {
                 case 2:
                     img = (ImageView) findViewById(R.id.imagen2);
                     img.setImageResource(drawableResourceId);
-                    ImageViewPopUpHelper.enablePopUpOnClick(this, img);
+                    mostrarZoom(img);
 
                     //Carga el audio de la segunda palabra
                     if (rawResourceId != 0) {
@@ -146,7 +149,7 @@ public class Controlador_Simbolo extends AppCompatActivity {
                 case 3:
                     img = (ImageView) findViewById(R.id.imagen3);
                     img.setImageResource(drawableResourceId);
-                    ImageViewPopUpHelper.enablePopUpOnClick(this, img);
+                    mostrarZoom(img);
 
                     //Carga el audio de la tercer palabra
                     if (rawResourceId != 0) {
@@ -161,7 +164,7 @@ public class Controlador_Simbolo extends AppCompatActivity {
                 default:
                     img = (ImageView) findViewById(R.id.imagen4);
                     img.setImageResource(drawableResourceId);
-                    ImageViewPopUpHelper.enablePopUpOnClick(this, img);
+                    mostrarZoom(img);
 
                     //Carga el audio de la "cuarta" palabra (letra)
                     if (rawResourceId != 0) {
@@ -177,115 +180,54 @@ public class Controlador_Simbolo extends AppCompatActivity {
             }
         }
 
-
-
     }
 
 
-    public void colocarPalabras(String letra, int posicion)
-    {
-        /*SpannableString palabraSubrayada;
-        String letraTildada = " ";
-        int contador = 0;
-        ArrayList<String> lista = new ArrayList<String>();
+    public void mostrarZoom(ImageView imageView){
 
-        if(letra.contentEquals("ñ"))
-        {
-            while(contador < Controlador_Principal.listaPalabrasEspeciales.size() && letra.charAt(0) != Controlador_Principal.listaPalabrasEspeciales.get(contador).get(0).charAt(0))
-            {
-                ++contador;
+        // Crea la ventana donde se va a mostrar la imagen
+        final Dialog dialog = new Dialog(this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(R.layout.zoom);
+        dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+        dialog.setCanceledOnTouchOutside(true);
+
+        ImageView image = (ImageView) dialog.findViewById(R.id.imagenZoom);
+        image.setImageDrawable(imageView.getDrawable());
+
+        dialog.getWindow().setBackgroundDrawable(null);
+        //Establece el tamaño de la ventana con respecto a las dimensiones de la pantalla
+        dialog.getWindow().setLayout(
+                // 65% del ancho de la pantalla
+                (int) (Resources.getSystem().getDisplayMetrics().widthPixels * 0.65),
+                // 55% del ancho de la pantalla
+                (int) (Resources.getSystem().getDisplayMetrics().heightPixels * 0.55)
+        );
+
+        imageView.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                dialog.show(); // Mostrar la ventana cuando se presione la imagen
             }
-
-            if(contador < Controlador_Principal.listaPalabrasEspeciales.size() )
-            {
-                lista = Controlador_Principal.listaPalabrasEspeciales.get(contador);
-            }
-       }
-        else
-        {
-            lista = Controlador_Principal.listaPalabras.get(posicion);
-        }
-
-        if (letra.length() > 0 && !letra.trim().equals(""))
-        {
-                palabraSubrayada  = new SpannableString(lista.get(0).toLowerCase(Locale.US));
-
-            for(int contadorPosicion = 1; contadorPosicion < 4; ++contadorPosicion)
-            {
-               for (int i = 0; i < palabraSubrayada.length(); ++i)
-                {
-
-                    switch(letra)
-                    {
-                        case "a":
-                            letraTildada = "á";
-                            break;
-
-                        case "e":
-                            letraTildada = "é";
-                            break;
-
-                        case "i":
-                            letraTildada = "í";
-                            break;
-
-                        case "o":
-                            letraTildada = "ó";
-                            break;
-
-                        case "u":
-                            letraTildada = "ú";
-                            break;
-
-                        default:
-                            letraTildada = " ";
-                    }
-
-                   if ( (palabraSubrayada.charAt(i)  == letra.charAt(0)) || (palabraSubrayada.charAt(i) == letraTildada.charAt(0))  ) {
-
-                        palabraSubrayada.setSpan(new UnderlineSpan(), i, i + 1, 0);
-                    }
-
-                }
-               if (contadorPosicion == 1)
-                {
-                    TextView t1 = (TextView) findViewById(R.id.textPrimera);
-                    t1.setText(palabraSubrayada);
-                    palabraSubrayada  = new SpannableString(lista.get(1).toLowerCase(Locale.US));
-                }
-                else if (contadorPosicion == 2)
-                {
-                    TextView t1 = (TextView) findViewById(R.id.textSegunda);
-                    t1.setText(palabraSubrayada);
-                    palabraSubrayada  = new SpannableString(lista.get(2).toLowerCase(Locale.US));
-                }
-                else
-                {
-                    TextView t1 = (TextView) findViewById(R.id.textTercera);
-                    t1.setText(palabraSubrayada);
-                }
-
-            }
-        }*/
+        });
     }
 
     public void reproducirSonido(View view){
-        int id = view.getId();
+    int id = view.getId();
 
-        switch (id)
-        {
-            case R.id.btnSonido1:
-                sound.play(sonido1);
-                break;
-            case R.id.btnSonido2:
-                sound.play(sonido2);
-                break;
-            case R.id.btnSonido3:
-                sound.play(sonido3);
-                break;
-            default:
-                sound.play(sonido4);
-        }
+    switch (id)
+    {
+        case R.id.btnSonido1:
+            sound.play(sonido1);
+            break;
+        case R.id.btnSonido2:
+            sound.play(sonido2);
+            break;
+        case R.id.btnSonido3:
+            sound.play(sonido3);
+            break;
+        default:
+            sound.play(sonido4);
+    }
     }
 
 

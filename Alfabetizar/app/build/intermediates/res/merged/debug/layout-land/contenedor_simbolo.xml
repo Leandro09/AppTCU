@@ -7,7 +7,7 @@
     android:background="@drawable/fondo_pantalla_simbolo">
 
     <ImageView
-        android:src="@drawable/imagen5_1"
+        android:src="@drawable/imagen0_1"
         android:id="@+id/imagen1"
         app:layout_widthPercent="29%"
         app:layout_heightPercent="33.33333%"
