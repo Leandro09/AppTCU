@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\fondo_pantalla_simbolo.jpg",
+        "source": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\drawable-xxhdpi\\fondo_pantalla_simbolo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\fondo_pantalla_simbolo.jpg",
+        "source": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\drawable-xxhdpi\\fondo_pantalla_simbolo.jpg"
+    },
+    {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\fondo_pantalla_simbolo.jpg",
         "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\drawable-xxhdpi\\fondo_pantalla_simbolo.jpg"
     }

@@ -1,10 +1,26 @@
 [
     {
+        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\contenedor_inicial.xml",
+        "source": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout-land\\contenedor_inicial.xml"
+    },
+    {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\contenedor_inicial.xml",
         "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout-land\\contenedor_inicial.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\contenedor_simbolo.xml",
         "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout-land\\contenedor_simbolo.xml"
+    },
+    {
+        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\contenedor_inicial.xml",
+        "source": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout-land\\contenedor_inicial.xml"
+    },
+    {
+        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\contenedor_simbolo.xml",
+        "source": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout-land\\contenedor_simbolo.xml"
+    },
+    {
+        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\contenedor_simbolo.xml",
+        "source": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout-land\\contenedor_simbolo.xml"
     }
 ]

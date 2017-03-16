@@ -1,5 +1,6 @@
 package aplicacion.movil.alfabetizar;
 
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -74,6 +75,11 @@ public class Controlador_Creditos extends AppCompatActivity {
         //Boton(flecha) de retorno
         ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
+
+        //Establecer transparencia en la imagen de fondo
+        View backgroundImg = findViewById(R.id.contenedor_creditos);
+        Drawable background = backgroundImg.getBackground();
+        background.setAlpha(100);
     }
 
     //Le da funcionalidad a la flecha de retorno

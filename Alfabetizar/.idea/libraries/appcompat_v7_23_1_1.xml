@@ -1,15 +1,12 @@
 <component name="libraryTable">
   <library name="appcompat-v7-23.1.1">
-    <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/annotations.zip!/" />
-    </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/f4ca59f9e22cd730afc68ce74ed4377c52e884d0/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/f4ca59f9e22cd730afc68ce74ed4377c52e884d0/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/492cf83626516fd2aea5e083dbe6526352012a84/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/492cf83626516fd2aea5e083dbe6526352012a84/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../../AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Administrator/AppData/Local/Android/sdk1/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
