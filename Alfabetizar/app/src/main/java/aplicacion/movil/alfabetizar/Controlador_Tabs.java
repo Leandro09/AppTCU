@@ -204,7 +204,7 @@ public class Controlador_Tabs extends AppCompatActivity {
                         R.drawable.caballo_imagen,
                         R.drawable.dedo_imagen,
                         R.drawable.foca_imagen,
-                        R.drawable.girasol_imagen,
+                        R.drawable.gota_imagen,
                         R.drawable.jirafa_imagen,
                         R.drawable.kiwi_imagen,
                         R.drawable.limon_imagen,
