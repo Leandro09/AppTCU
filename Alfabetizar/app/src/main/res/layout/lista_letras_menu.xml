@@ -4,22 +4,29 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal">
 
-
-    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-        android:gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:minHeight="?android:attr/listPreferredItemHeight"
+    <TextView
         android:id="@+id/lista_letras_textview"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        />
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+
+        android:text="W"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
 
     <ImageView
+        android:id="@+id/imagenLetras"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:id="@+id/imagenLetras"
-        />
+
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:src="@drawable/kiwi_imagen" />
+
 
 
 </LinearLayout>

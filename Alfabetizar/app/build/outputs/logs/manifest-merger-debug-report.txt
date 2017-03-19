@@ -1,74 +1,74 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:3:5-43
-		INJECTED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:5:5-24:19
-MERGED from [com.android.support:design:23.1.1] C:\Users\b35311\.android\build-cache\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\b35311\.android\build-cache\492cf83626516fd2aea5e083dbe6526352012a84\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:percent:23.3.0] C:\Users\b35311\.android\build-cache\35281227a875945a2cf57eee30a8a832682ef762\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.3.0] C:\Users\b35311\.android\build-cache\cad8d4f04a07704f43dcb167b4cfde260f81e052\output\AndroidManifest.xml:22:5-20
+ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support:design:23.1.1] C:\Users\jedup\.android\build-cache\93213b8a74c842869a495cb9b62362edbb2eae1c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\jedup\.android\build-cache\86ead9f511310c1fa6987c5086c15a7c93044a0b\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:percent:23.3.0] C:\Users\jedup\.android\build-cache\1fc9c78694c9e89acd644ad20b7ac7f2077c693b\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\jedup\.android\build-cache\7491464267517d1f1b732a5a5dd96223d4afe1e6\output\AndroidManifest.xml:22:5-20
 	android:screenOrientation
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:9:9-46
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:9:9-46
 	android:label
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:8:9-41
 	android:supportsRtl
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:10:9-35
 	android:allowBackup
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:11:9-40
 activity#aplicacion.movil.alfabetizar.Controlador_Principal
-ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:12:19-56
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:12:19-56
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:16:27-74
 activity#aplicacion.movil.alfabetizar.Controlador_Simbolo
-ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:19:9-57
+ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:19:9-57
 	android:name
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:19:19-54
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:19:19-54
 activity#aplicacion.movil.alfabetizar.Controlador_Tabs
-ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:20:9-22:59
+ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:20:9-22:59
 	android:theme
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:22:13-56
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:22:13-56
 	android:name
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:21:13-45
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:21:13-45
 activity#aplicacion.movil.alfabetizar.Controlador_Creditos
-ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:23:9-67
+ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:23:9-67
 	android:name
-		ADDED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:23:19-55
+		ADDED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml:23:19-55
 uses-sdk
-INJECTED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:23.1.1] C:\Users\b35311\.android\build-cache\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\b35311\.android\build-cache\492cf83626516fd2aea5e083dbe6526352012a84\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\b35311\.android\build-cache\f5ee19816e7ab2bba4fba56b76ba1959b795a3e7\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:percent:23.3.0] C:\Users\b35311\.android\build-cache\35281227a875945a2cf57eee30a8a832682ef762\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.3.0] C:\Users\b35311\.android\build-cache\cad8d4f04a07704f43dcb167b4cfde260f81e052\output\AndroidManifest.xml:20:5-43
+INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:23.1.1] C:\Users\jedup\.android\build-cache\93213b8a74c842869a495cb9b62362edbb2eae1c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\jedup\.android\build-cache\86ead9f511310c1fa6987c5086c15a7c93044a0b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\jedup\.android\build-cache\14a91534c2d52fcccfe0a7001928446856ac6210\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:percent:23.3.0] C:\Users\jedup\.android\build-cache\1fc9c78694c9e89acd644ad20b7ac7f2077c693b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\jedup\.android\build-cache\7491464267517d1f1b732a5a5dd96223d4afe1e6\output\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		INJECTED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\b35311\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\src\main\AndroidManifest.xml

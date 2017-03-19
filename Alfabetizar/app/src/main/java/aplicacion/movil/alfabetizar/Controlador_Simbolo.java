@@ -200,7 +200,7 @@ public class Controlador_Simbolo extends AppCompatActivity {
         dialog.getWindow().setLayout(
                 // 65% del ancho de la pantalla
                 (int) (Resources.getSystem().getDisplayMetrics().widthPixels * 0.65),
-                // 55% del ancho de la pantalla
+                // 55% del alto de la pantalla
                 (int) (Resources.getSystem().getDisplayMetrics().heightPixels * 0.55)
         );
 
