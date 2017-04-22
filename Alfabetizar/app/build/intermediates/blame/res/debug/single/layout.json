@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_grupo_creditos.xml",
-        "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\lista_grupo_creditos.xml"
-    },
-    {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_grupo_creditos.xml",
+        "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\lista_grupo_creditos.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",

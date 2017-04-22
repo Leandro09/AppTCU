@@ -5,8 +5,10 @@ import android.app.Dialog;
 import android.content.pm.ActivityInfo;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.graphics.Point;
 import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.media.AudioManager;
 import android.os.Build;
@@ -238,7 +240,7 @@ public class Controlador_Simbolo extends AppCompatActivity {
         image.setImageDrawable(imageView.getDrawable());
 
 
-        dialog.getWindow().setBackgroundDrawable(null);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         if(1 == modo) { //Modo palabra
             //Establece el tamaño de la ventana con respecto a las dimensiones de la pantalla
             dialog.getWindow().setLayout(

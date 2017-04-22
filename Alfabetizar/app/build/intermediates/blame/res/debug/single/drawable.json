@@ -28,12 +28,12 @@
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
