@@ -1,7 +1,7 @@
 [
     {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_creditos.xml",
-        "source": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_creditos.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_grupo_creditos.xml",
+        "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\lista_grupo_creditos.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
@@ -16,20 +16,20 @@
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_navigation_menu_item.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
@@ -40,160 +40,84 @@
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_inicial.xml",
-        "source": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_inicial.xml"
-    },
-    {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_simbolo.xml",
-        "source": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_simbolo.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zoom.xml",
+        "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\zoom.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_controlador__tabs.xml",
-        "source": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\activity_controlador__tabs.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_tabs.xml",
-        "source": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_tabs.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
@@ -204,36 +128,32 @@
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_item_creditos.xml",
-        "source": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\lista_item_creditos.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_simbolo.xml",
-        "source": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_simbolo.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_navigation_menu.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
@@ -248,52 +168,36 @@
         "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_creditos.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zoom.xml",
-        "source": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\zoom.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_item_creditos.xml",
         "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\lista_item_creditos.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_letras_menu.xml",
         "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\lista_letras_menu.xml"
     },
     {
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_simbolo.xml",
         "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_simbolo.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_navigation_menu_item.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
@@ -304,20 +208,12 @@
         "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_controlador__tabs.xml",
         "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\activity_controlador__tabs.xml"
     },
     {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_layout_snackbar_include.xml"
+        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_tabs.xml",
+        "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_tabs.xml"
     },
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_inicial.xml",
@@ -330,357 +226,5 @@
     {
         "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_grupo_creditos.xml",
-        "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\lista_grupo_creditos.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_letras_menu.xml",
-        "source": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\lista_letras_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_creditos.xml",
-        "source": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_creditos.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_grupo_creditos.xml",
-        "source": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\lista_grupo_creditos.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_letras_menu.xml",
-        "source": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\lista_letras_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zoom.xml",
-        "source": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\zoom.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zoom.xml",
-        "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\zoom.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_grupo_creditos.xml",
-        "source": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\lista_grupo_creditos.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_inicial.xml",
-        "source": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_inicial.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_controlador__tabs.xml",
-        "source": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\activity_controlador__tabs.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lista_item_creditos.xml",
-        "source": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\lista_item_creditos.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\93213b8a74c842869a495cb9b62362edbb2eae1c\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\jedup\\.android\\build-cache\\86ead9f511310c1fa6987c5086c15a7c93044a0b\\output\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_tabs.xml",
-        "source": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_tabs.xml"
-    },
-    {
-        "merged": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenedor_tabs.xml",
-        "source": "E:\\Users\\jedup\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\src\\main\\res\\layout\\contenedor_tabs.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "C:\\Users\\b35311\\Documents\\GitHub\\AppTCU\\Alfabetizar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\b35311\\.android\\build-cache\\492cf83626516fd2aea5e083dbe6526352012a84\\output\\res\\layout\\abc_action_bar_up_container.xml"
     }
 ]

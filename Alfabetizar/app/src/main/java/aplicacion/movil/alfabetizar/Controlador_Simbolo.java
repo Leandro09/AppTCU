@@ -1,12 +1,19 @@
 package aplicacion.movil.alfabetizar;
 
+import android.annotation.TargetApi;
 import android.app.Dialog;
 import android.content.pm.ActivityInfo;
 import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.Point;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.media.AudioManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Display;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
@@ -115,11 +122,22 @@ public class Controlador_Simbolo extends AppCompatActivity {
             nombreSonido = inicioNombreSonido + posicion + "_" + contadorPosicion;
             rawResourceId = getResources().getIdentifier( nombreSonido, "raw", this.getPackageName());
 
+            boolean requiresResize;
+
             switch (contadorPosicion) {
+
                 case 1:
                     img = (ImageView) findViewById(R.id.imagen1);
-                    img.setImageResource(drawableResourceId);
-                    mostrarZoom(img);
+
+                    //Carga la imagen de la primera palabra
+                    if (drawableResourceId != 0) {
+                        img.setImageResource(drawableResourceId);
+
+                        mostrarZoom(img, 1);
+                    } else {
+                        //Si la imagen no existe
+                        img.setVisibility(View.INVISIBLE);
+                    }
 
                     //Carga del audio de la segunda palabra
                     if (rawResourceId != 0) {
@@ -131,10 +149,18 @@ public class Controlador_Simbolo extends AppCompatActivity {
                         botonAudio.setVisibility(View.INVISIBLE);
                     }
                     break;
+
                 case 2:
                     img = (ImageView) findViewById(R.id.imagen2);
-                    img.setImageResource(drawableResourceId);
-                    mostrarZoom(img);
+                    //Carga la imagen de la segunda palabra
+                    if (drawableResourceId != 0) {
+                        img.setImageResource(drawableResourceId);
+
+                        mostrarZoom(img, 1);
+                    } else {
+                        //Si la imagen no existe
+                        img.setVisibility(View.INVISIBLE);
+                    }
 
                     //Carga el audio de la segunda palabra
                     if (rawResourceId != 0) {
@@ -146,10 +172,18 @@ public class Controlador_Simbolo extends AppCompatActivity {
                         botonAudio.setVisibility(View.INVISIBLE);
                     }
                     break;
+
                 case 3:
                     img = (ImageView) findViewById(R.id.imagen3);
-                    img.setImageResource(drawableResourceId);
-                    mostrarZoom(img);
+                    //Carga la imagen de la tercera palabra
+                    if (drawableResourceId != 0) {
+                        img.setImageResource(drawableResourceId);
+
+                        mostrarZoom(img, 1);
+                    } else {
+                        //Si la imagen no existe
+                        img.setVisibility(View.INVISIBLE);
+                    }
 
                     //Carga el audio de la tercer palabra
                     if (rawResourceId != 0) {
@@ -161,11 +195,18 @@ public class Controlador_Simbolo extends AppCompatActivity {
                         botonAudio.setVisibility(View.INVISIBLE);
                     }
                     break;
+
                 default:
                     img = (ImageView) findViewById(R.id.imagen4);
-                    img.setImageResource(drawableResourceId);
-                    mostrarZoom(img);
+                    //Carga la imagen de la "cuarta" palabra (letra)
+                    if (drawableResourceId != 0) {
+                        img.setImageResource(drawableResourceId);
 
+                        mostrarZoom(img, 2);
+                    } else {
+                        //Si la imagen no existe
+                        img.setVisibility(View.INVISIBLE);
+                    }
                     //Carga el audio de la "cuarta" palabra (letra)
                     if (rawResourceId != 0) {
                         //Carga el audio si existe
@@ -183,7 +224,7 @@ public class Controlador_Simbolo extends AppCompatActivity {
     }
 
 
-    public void mostrarZoom(ImageView imageView){
+    public void mostrarZoom(ImageView imageView, int modo){
 
         // Crea la ventana donde se va a mostrar la imagen
         final Dialog dialog = new Dialog(this);
@@ -193,16 +234,28 @@ public class Controlador_Simbolo extends AppCompatActivity {
         dialog.setCanceledOnTouchOutside(true);
 
         ImageView image = (ImageView) dialog.findViewById(R.id.imagenZoom);
+
         image.setImageDrawable(imageView.getDrawable());
 
+
         dialog.getWindow().setBackgroundDrawable(null);
-        //Establece el tamaño de la ventana con respecto a las dimensiones de la pantalla
-        dialog.getWindow().setLayout(
-                // 65% del ancho de la pantalla
-                (int) (Resources.getSystem().getDisplayMetrics().widthPixels * 0.65),
-                // 55% del alto de la pantalla
-                (int) (Resources.getSystem().getDisplayMetrics().heightPixels * 0.55)
-        );
+        if(1 == modo) { //Modo palabra
+            //Establece el tamaño de la ventana con respecto a las dimensiones de la pantalla
+            dialog.getWindow().setLayout(
+                    // 65% del ancho de la pantalla
+                    (int) (Resources.getSystem().getDisplayMetrics().widthPixels * 0.65),
+                    // 50% del alto de la pantalla
+                    (int) (Resources.getSystem().getDisplayMetrics().heightPixels * 0.50)
+            );
+        } else if (2 == modo) { //Modo letra
+            //Establece el tamaño de la ventana con respecto a las dimensiones de la pantalla
+            dialog.getWindow().setLayout(
+                    // 35% del ancho de la pantalla
+                    (int) (Resources.getSystem().getDisplayMetrics().widthPixels * 0.35),
+                    // 50% del alto de la pantalla
+                    (int) (Resources.getSystem().getDisplayMetrics().heightPixels * 0.50)
+            );
+        }
 
         imageView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -212,22 +265,22 @@ public class Controlador_Simbolo extends AppCompatActivity {
     }
 
     public void reproducirSonido(View view){
-    int id = view.getId();
+        int id = view.getId();
 
-    switch (id)
-    {
-        case R.id.btnSonido1:
-            sound.play(sonido1);
-            break;
-        case R.id.btnSonido2:
-            sound.play(sonido2);
-            break;
-        case R.id.btnSonido3:
-            sound.play(sonido3);
-            break;
-        default:
-            sound.play(sonido4);
-    }
+        switch (id)
+        {
+            case R.id.btnSonido1:
+                sound.play(sonido1);
+                break;
+            case R.id.btnSonido2:
+                sound.play(sonido2);
+                break;
+            case R.id.btnSonido3:
+                sound.play(sonido3);
+                break;
+            default:
+                sound.play(sonido4);
+        }
     }
 
 

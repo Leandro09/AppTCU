@@ -25,7 +25,7 @@
         android:paddingRight="15dp"
         android:paddingTop="4dp"
         android:paddingBottom="4dp"
-        android:src="@drawable/kiwi_imagen" />
+        android:src="@drawable/_menu_k_kiwi_imagen" />
 
 
 

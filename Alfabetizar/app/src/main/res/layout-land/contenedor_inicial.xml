@@ -25,8 +25,11 @@
         android:id="@+id/btnIniciar"
         android:onClick="reproducirSonido"
         android:layout_gravity="center_horizontal"
-        app:layout_widthPercent="28%"
-        app:layout_heightPercent="35%"
+        app:layout_widthPercent="22.5%"
+        app:layout_heightPercent="12.5%"
+        app:layout_marginBottomPercent="8%"
+        app:layout_marginRightPercent="3%"
+
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />

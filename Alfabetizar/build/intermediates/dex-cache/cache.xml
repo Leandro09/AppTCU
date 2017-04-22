@@ -2,67 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\b35311\.android\build-cache\f5ee19816e7ab2bba4fba56b76ba1959b795a3e7\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="C:\Users\b35311\Documents\AppTCU\Alfabetizar\app\build\intermediates\pre-dexed\debug\classes_545f7d7137dcbbd179675ef64355bab3b9966f15.jar" />
+        sha1="3179ca797238f68f7400089b6c6aa7d264f972b4">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_129c7faf4f8058c5ed12d8b14e8adfe114f26c80\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="C:\Users\b35311\Documents\AppTCU\Alfabetizar\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_d188a5790ca51ebb3394a867d6d750337508e8f2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\b35311\.android\build-cache\cad8d4f04a07704f43dcb167b4cfde260f81e052\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="C:\Users\b35311\Documents\AppTCU\Alfabetizar\app\build\intermediates\pre-dexed\debug\classes_ab839d5cfeb58dbd4c6af2e5b0be74b6939b5c4a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\b35311\.android\build-cache\35281227a875945a2cf57eee30a8a832682ef762\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="de44758258139805d12d5d023b04f58e2010dacc">
-        <dex dex="C:\Users\b35311\Documents\AppTCU\Alfabetizar\app\build\intermediates\pre-dexed\debug\classes_c9e70cf62ef664bfb28de01c8c1569c591f71555.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\b35311\.android\build-cache\c7e7c2acc0f698027d01df0d09c26d1bf021d80a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="C:\Users\b35311\Documents\AppTCU\Alfabetizar\app\build\intermediates\pre-dexed\debug\classes_8f5d3465c2f05045145f8f3a5f212c54274ad7ac.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\b35311\.android\build-cache\492cf83626516fd2aea5e083dbe6526352012a84\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="C:\Users\b35311\Documents\AppTCU\Alfabetizar\app\build\intermediates\pre-dexed\debug\classes_707201ee275bb700706585aea4f50d4efff7445b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\b35311\.android\build-cache\cad8d4f04a07704f43dcb167b4cfde260f81e052\output\jars\libs\internal_impl-23.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="C:\Users\b35311\Documents\AppTCU\Alfabetizar\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_6f564adff285177c6006ce8828afb348fab89e36.jar" />
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="E:\Users\jedup\Documents\GitHub\AppTCU\Alfabetizar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_146b178cbba9ab29e566282fa0d8b49ab6e9987d\classes.dex" />
     </item>
 
 </items>

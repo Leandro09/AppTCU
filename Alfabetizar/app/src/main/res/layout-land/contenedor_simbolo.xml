@@ -30,47 +30,49 @@
     <ImageView
         android:src="@drawable/imagen0_4"
         android:id="@+id/imagen4"
-        app:layout_widthPercent="33.33333%"
+        app:layout_widthPercent="17.33333%"
         app:layout_heightPercent="33.33333%"
         app:layout_marginTopPercent="23.66666%"
-        app:layout_marginLeftPercent="66.66666%"/>
+        app:layout_marginLeftPercent="74.45%"
+
+        />
 
     <Button
         android:background="@drawable/bt_sonido"
         android:id="@+id/btnSonido1"
         android:onClick="reproducirSonido"
         android:layout_gravity="center_horizontal"
-        app:layout_widthPercent="16.666665%"
-        app:layout_heightPercent="16.666665%"
-        app:layout_marginTopPercent="8.33333%"
-        app:layout_marginLeftPercent="33.33333%"/>
+        app:layout_widthPercent="6.2499975%"
+        app:layout_heightPercent="12.499995%"
+        app:layout_marginTopPercent="10.5%"
+        app:layout_marginLeftPercent="40%"/>
     <Button
         android:background="@drawable/bt_sonido"
         android:id="@+id/btnSonido2"
         android:onClick="reproducirSonido"
         android:layout_gravity="center_horizontal"
-        app:layout_widthPercent="16.666665%"
-        app:layout_heightPercent="16.666665%"
-        app:layout_marginTopPercent="41.66666%"
-        app:layout_marginLeftPercent="33.33333%"/>
+        app:layout_widthPercent="6.2499975%"
+        app:layout_heightPercent="12.499995%"
+        app:layout_marginTopPercent="43.7%"
+        app:layout_marginLeftPercent="40%"/>
     <Button
         android:background="@drawable/bt_sonido"
         android:id="@+id/btnSonido3"
         android:onClick="reproducirSonido"
         android:layout_gravity="center_horizontal"
-        app:layout_widthPercent="16.666665%"
-        app:layout_heightPercent="16.666665%"
-        app:layout_marginTopPercent="74.99999%"
-        app:layout_marginLeftPercent="33.33333%"/>
+        app:layout_widthPercent="6.2499975%"
+        app:layout_heightPercent="12.499995%"
+        app:layout_marginTopPercent="77.1%"
+        app:layout_marginLeftPercent="40%"/>
     <Button
         android:background="@drawable/bt_sonido"
         android:id="@+id/btnSonido4"
         android:onClick="reproducirSonido"
         android:layout_gravity="center_horizontal"
-        app:layout_widthPercent="16.666665%"
-        app:layout_heightPercent="16.666665%"
-        app:layout_marginTopPercent="58.33332%"
-        app:layout_marginLeftPercent="74.99999%"/>
+        app:layout_widthPercent="6.2499975%"
+        app:layout_heightPercent="12.499995%"
+        app:layout_marginTopPercent="60.5%"
+        app:layout_marginLeftPercent="80.1%"/>
 
 
 </android.support.percent.PercentRelativeLayout>
