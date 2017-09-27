@@ -219,7 +219,7 @@ public class Controlador_Tabs extends AppCompatActivity {
                         R.drawable._menu_t_tortuga_imagen,
                         R.drawable._menu_v_vaca_imagen,
                         R.drawable._menu_w_sandwich_imagen,
-                        R.drawable._menu_x_xilofono_imagen,
+                        R.drawable._menu_x_taxi_imagen,
                         R.drawable._menu_y_yogurt_imagen,
                         R.drawable._menu_z_zanahoria_imagen
                 };
